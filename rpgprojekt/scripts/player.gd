@@ -48,7 +48,7 @@ func play_anim(movement):
 		if movement:
 			anim.play("walk_up")
 		else: anim.play("idle_up")
-	else: if movement:
+	elif movement:
 		anim.play("walk_down")
 	else: anim.play("idle_down")
 	

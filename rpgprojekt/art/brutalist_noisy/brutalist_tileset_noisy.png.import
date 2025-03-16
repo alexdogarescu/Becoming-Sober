@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b1oj62g80weyv"
-path="res://.godot/imported/brutalist_tileset.png-6c9e28f3c9bd440a75be9f2e5e14a713.ctex"
+path="res://.godot/imported/brutalist_tileset_noisy.png-334ed617a05161b543b0fa0cf292b2aa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/brutalist_noisy/brutalist_tileset.png"
-dest_files=["res://.godot/imported/brutalist_tileset.png-6c9e28f3c9bd440a75be9f2e5e14a713.ctex"]
+source_file="res://art/brutalist_noisy/brutalist_tileset_noisy.png"
+dest_files=["res://.godot/imported/brutalist_tileset_noisy.png-334ed617a05161b543b0fa0cf292b2aa.ctex"]
 
 [params]
 

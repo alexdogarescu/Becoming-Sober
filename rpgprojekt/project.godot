@@ -18,6 +18,12 @@ config/icon="res://art/icon.svg"
 
 project/assembly_name="rpgprojekt"
 
+[importer_defaults]
+
+animation_library={
+&"animation/fps": 60.0
+}
+
 [input]
 
 right={
