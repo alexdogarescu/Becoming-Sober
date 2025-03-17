@@ -1,3 +1,5 @@
+res://scenes/enemy_group.tscn
+res://scenes/battle_scene.tscn
+res://scenes/enemy.tscn
+res://scenes/enemy_member.tscn
 res://scenes/player.tscn
-res://scripts/player.gd
-res://scenes/world.tscn

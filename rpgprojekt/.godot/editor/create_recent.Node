@@ -1,4 +1,10 @@
-TileMapLayer
+AnimationPlayer
+ProgressBar
+TextureProgressBar
 AnimatedSprite2D
-CollisionShape2D
+Sprite2D
 CharacterBody2D
+Node2D
+Node
+TileMapLayer
+CollisionShape2D
