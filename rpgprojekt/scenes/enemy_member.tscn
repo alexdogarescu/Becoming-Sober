@@ -1,6 +1,5 @@
-[gd_scene load_steps=20 format=3 uid="uid://kowf0qwe0k1b"]
+[gd_scene load_steps=19 format=3 uid="uid://kowf0qwe0k1b"]
 
-[ext_resource type="Texture2D" uid="uid://bbfs1b6f52bm6" path="res://art/arrow.png" id="1_yr6fk"]
 [ext_resource type="Texture2D" uid="uid://cyip6hutwhco6" path="res://art/characters/slime.png" id="2_dv07p"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5uy6h"]
@@ -128,12 +127,6 @@ _data = {
 }
 
 [node name="enemy_member" type="CharacterBody2D"]
-
-[node name="focus" type="Sprite2D" parent="."]
-visible = false
-position = Vector2(-96, 0)
-scale = Vector2(2, 2)
-texture = ExtResource("1_yr6fk")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(1.52588e-05, 9.53674e-07)
