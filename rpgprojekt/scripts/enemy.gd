@@ -5,6 +5,7 @@ var player_chase = false
 var player = null
 @export var player_hit = false
 
+
 func _physics_process(_delta):
 	if player_chase:
 		position += (player.position - position)/speed
@@ -14,7 +15,7 @@ func _physics_process(_delta):
 			$AnimatedSprite2D.flip_h = true
 		else:
 			$AnimatedSprite2D.flip_h = false
-		#This flips the sprite in the right direction.Hopefully
+		#This flips the sprite in the right direction.
 		if player_hit: 
 			change_scene()
 		
@@ -37,4 +38,5 @@ func change_scene():
 	player_chase = false
 
 func _on_hit_area_body_entered(body):
+	
 	player_hit = true
