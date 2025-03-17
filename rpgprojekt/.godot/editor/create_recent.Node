@@ -1,4 +1,7 @@
-TileMapLayer
-AnimatedSprite2D
 CollisionShape2D
+Area2D
+Sprite2D
+Camera2D
+AnimatedSprite2D
 CharacterBody2D
+TileMapLayer

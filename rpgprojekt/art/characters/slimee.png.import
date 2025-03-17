@@ -2,12 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://vl5t8koo1lv4"
-valid=false
+uid="uid://dwf3ou76rgy7d"
+path="res://.godot/imported/slimee.png-4e9da18fe217cd08b2191beb801a30fb.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://art/characters/skeleton_swordless.png"
+source_file="res://art/characters/slimee.png"
+dest_files=["res://.godot/imported/slimee.png-4e9da18fe217cd08b2191beb801a30fb.ctex"]
 
 [params]
 

@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dlxhx8yb3ty2s"]
+
+[ext_resource type="Texture2D" uid="uid://t6iybv70gqoa" path="res://art/characters/player.png" id="1_idkgt"]
+
+[node name="battle_scene" type="Node2D"]
+
+[node name="Player" type="Sprite2D" parent="."]
+position = Vector2(707, 453)
+scale = Vector2(17.0938, 14.8125)
+texture = ExtResource("1_idkgt")

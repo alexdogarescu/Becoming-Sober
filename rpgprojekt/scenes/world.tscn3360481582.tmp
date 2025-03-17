@@ -1,6 +1,5 @@
-[gd_scene load_steps=8 format=4 uid="uid://dgqike26esdt6"]
+[gd_scene load_steps=7 format=4 uid="uid://dgqike26esdt6"]
 
-[ext_resource type="Script" uid="uid://bdn233faeacdk" path="res://scenes/world.gd" id="1_k0juu"]
 [ext_resource type="Texture2D" uid="uid://bkc3ett7123wn" path="res://art/brutalist_clear/brutalism_tileset.png" id="2_4wyf3"]
 [ext_resource type="PackedScene" uid="uid://cmovrrtrcax2w" path="res://scenes/player.tscn" id="3_4wyf3"]
 [ext_resource type="PackedScene" uid="uid://bpkodmwcg5eoh" path="res://scenes/enemy.tscn" id="3_k0juu"]
@@ -547,7 +546,6 @@ sources/0 = SubResource("TileSetAtlasSource_k0juu")
 sources/1 = SubResource("TileSetAtlasSource_71j4m")
 
 [node name="World" type="Node2D"]
-script = ExtResource("1_k0juu")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
 tile_map_data = PackedByteArray("AAAAAP//AAAOAAYAAAACAP//AAACAAYAAAAEAP//AAAEAAYAAAAGAP//AAAGAAYAAAAIAP//AAAQAA4AAAAIAP3/AAAQAAwAAAAGAP3/AAAOAAwAAAAEAP3/AAAKAAgAAAACAP3/AAAOAAwAAAAAAP3/AAAOAAwAAAAGAAEAAAAOABAAAAAEAAEAAAACAA4AAAACAAEAAAAGABAAAAAAAAEAAAAOAAwAAAAIAAEAAAAQABIAAAAEAAMAAAAKABIAAAAGAAMAAAASABIAAAAIAAMAAAAQABIAAAACAAMAAAAIABIAAAAAAAMAAAAIABIAAAA=")
