@@ -38,5 +38,4 @@ func change_scene():
 	player_chase = false
 
 func _on_hit_area_body_entered(body):
-	
 	player_hit = true
