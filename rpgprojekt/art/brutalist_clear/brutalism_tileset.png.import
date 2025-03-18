@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bkc3ett7123wn"
-path="res://.godot/imported/brutalism_tileset.png-6cc2e26932cfa908f0ffc243fc8d2ff0.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://art/brutalist_clear/brutalism_tileset.png"
-dest_files=["res://.godot/imported/brutalism_tileset.png-6cc2e26932cfa908f0ffc243fc8d2ff0.ctex"]
 
 [params]
 
