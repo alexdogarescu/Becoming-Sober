@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://kmq68lg7baf3"]
+
+[node name="party_manager" type="Node2D"]

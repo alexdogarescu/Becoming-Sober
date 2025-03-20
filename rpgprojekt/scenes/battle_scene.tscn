@@ -1,10 +1,19 @@
 [gd_scene load_steps=2 format=3 uid="uid://dlxhx8yb3ty2s"]
 
-[ext_resource type="Texture2D" uid="uid://t6iybv70gqoa" path="res://art/characters/player.png" id="1_idkgt"]
+[ext_resource type="PackedScene" uid="uid://kmq68lg7baf3" path="res://scenes/party_manager.tscn" id="1_idkgt"]
 
 [node name="battle_scene" type="Node2D"]
 
-[node name="Player" type="Sprite2D" parent="."]
-position = Vector2(707, 453)
-scale = Vector2(17.0938, 14.8125)
-texture = ExtResource("1_idkgt")
+[node name="UI" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="player_party" type="Node2D" parent="." groups=["combatants"]]
+
+[node name="enemy_party" type="Node2D" parent="." groups=["combatants"]]
+
+[node name="dungeon_master" type="Node2D" parent="."]
+
+[node name="party_manager" parent="." instance=ExtResource("1_idkgt")]
