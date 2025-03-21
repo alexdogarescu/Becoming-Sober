@@ -1,4 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
+<<<<<<< Updated upstream
 ::res://::1742579072
 ::res://art/::1742579073
 icon.svg::CompressedTexture2D/CompressedTexture2D::1171198257854112684::1742131521::1742579073::1::::<><><>0<>0<>e9d6c755ef3b7b9ff89b569d1bc1f8ec<>res://.godot/imported/icon.svg-2ffe2e9772a318535303737ea3c29287.ctex::
@@ -26,3 +27,27 @@ world.tscn::PackedScene::7613929004071309473::1742578139::0::1::::<><><>0<>0<><>
 ::res://scripts/::1742578139
 enemy.gd::GDScript::2968392493527273561::1742578139::0::1::::<>CharacterBody2D<><>0<>0<><>::
 player.gd::GDScript::3575044580060701040::1742578139::0::1::::<>CharacterBody2D<><>0<>0<><>::
+=======
+::res://::1742579466
+::res://art/::1742579437
+icon.svg::CompressedTexture2D/CompressedTexture2D::1171198257854112684::1742131521::1742579073::1::::<><><>0<>0<>e9d6c755ef3b7b9ff89b569d1bc1f8ec<>res://.godot/imported/icon.svg-2ffe2e9772a318535303737ea3c29287.ctex::
+::res://art/brutalist_clear/::1742579437
+brutalism_tileset_clear.png::CompressedTexture2D/CompressedTexture2D::3094146123339334305::1742579437::1742579437::1::::<><><>0<>0<>2cf050e79f97f5f5e453fadcb9dece09<>res://.godot/imported/brutalism_tileset_clear.png-29000d0fbc83ec109d122ae44bee6b9c.ctex::
+::res://art/brutalist_noisy/::1742579073
+brutalist_tileset_noisy.png::CompressedTexture2D/CompressedTexture2D::4240835148317657781::1742486180::1742579073::1::::<><><>0<>0<>62845e7497a64347943c0f466f66244e<>res://.godot/imported/brutalist_tileset_noisy.png-334ed617a05161b543b0fa0cf292b2aa.ctex::
+::res://art/characters/::1742579437
+enemy.png::CompressedTexture2D/CompressedTexture2D::6474855150686495995::1742579437::1742579437::1::::<><><>0<>0<>c00268f27f5865b8a7f57e86345a3fe0<>res://.godot/imported/enemy.png-b54989fd2bed9c61d5fba62e2f220c63.ctex::
+player_type.png::CompressedTexture2D/CompressedTexture2D::1398112420946157212::1742579437::1742579437::1::::<><><>0<>0<>0dc7be37b83b2ba3091ff6aa6f2db5d7<>res://.godot/imported/player_type.png-9338a854ac30975a6e05e61553affb0a.ctex::
+::res://scenes/::1742579437
+battle_scene.tscn::PackedScene::7979287882079701120::1742579437::0::1::::<><><>0<>0<><>::uid://kmq68lg7baf3::::res://scenes/party_manager.tscn
+party_manager.tscn::PackedScene::727689551503174478::1742579437::0::1::::<><><>0<>0<><>::
+player.tscn::PackedScene::5645315117967245320::1742579437::0::1::::<><><>0<>0<><>::uid://bq61px8bbjcmy::::res://scripts/player.gd<>uid://t6iybv70gqoa::::res://art/characters/player_type.png
+world.tscn::PackedScene::7613929004071309473::1742579437::0::1::::<><><>0<>0<><>::uid://bdn233faeacdk::::res://scripts/world.gd<>uid://bkc3ett7123wn::::res://art/brutalist_clear/brutalism_tileset_clear.png<>uid://cmovrrtrcax2w::::res://scenes/player.tscn<>uid://b1oj62g80weyv::::res://art/brutalist_noisy/brutalist_tileset_noisy.png<>uid://bpkodmwcg5eoh::::res://scenes/maybe later scenes/moving_enemy.tscn
+::res://scenes/maybe later scenes/::1742579437
+moving_enemy.tscn::PackedScene::3460753175450601731::1742579437::0::1::::<><><>0<>0<><>::uid://bij58xhypiwtl::::res://scripts/moving_enemy.gd
+::res://scripts/::1742579437
+Character.gd::GDScript::7017352787177867560::1742579437::0::1::::Character<>Node<><>0<>0<><>::
+moving_enemy.gd::GDScript::2968392493527273561::1742579437::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.gd::GDScript::3575044580060701040::1742579437::0::1::::<>CharacterBody2D<><>0<>0<><>::
+world.gd::GDScript::2625514964827180792::1742579437::0::1::::<>Node2D<><>0<>0<><>::
+>>>>>>> Stashed changes
