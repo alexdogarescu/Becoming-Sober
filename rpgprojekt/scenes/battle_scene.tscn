@@ -1,19 +1,58 @@
-[gd_scene load_steps=2 format=3 uid="uid://dlxhx8yb3ty2s"]
+[gd_scene load_steps=7 format=3 uid="uid://dlxhx8yb3ty2s"]
 
 [ext_resource type="PackedScene" uid="uid://kmq68lg7baf3" path="res://scenes/party_manager.tscn" id="1_idkgt"]
+[ext_resource type="Script" uid="uid://cy3xk2wawooca" path="res://scripts/battle_manager.gd" id="1_kinr6"]
+[ext_resource type="Script" uid="uid://wt3e1ibpluor" path="res://scripts/battle_ui.gd" id="1_pxwbd"]
+[ext_resource type="PackedScene" uid="uid://chytqmgf84nmi" path="res://scenes/player_character.tscn" id="1_rca61"]
+[ext_resource type="PackedScene" uid="uid://c6yjdvau0gytf" path="res://scenes/enemy.tscn" id="2_8qdv8"]
+[ext_resource type="Script" uid="uid://cnktqf4jvpv4e" path="res://scripts/battle_scene_camera.gd" id="6_1i8jf"]
 
 [node name="battle_scene" type="Node2D"]
 
-[node name="UI" type="Control" parent="."]
+[node name="BattleUI" type="Control" parent="."]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+script = ExtResource("1_pxwbd")
 
-[node name="player_party" type="Node2D" parent="." groups=["combatants"]]
+[node name="skill_panel" type="VBoxContainer" parent="BattleUI"]
+layout_mode = 0
+offset_left = 52.0
+offset_top = -70.0
+offset_right = 92.0
+offset_bottom = -30.0
 
-[node name="enemy_party" type="Node2D" parent="." groups=["combatants"]]
+[node name="skill_button" type="Button" parent="BattleUI/skill_panel"]
+layout_mode = 2
+
+[node name="target_panel" type="VBoxContainer" parent="BattleUI"]
+visible = false
+layout_mode = 0
+offset_left = -135.0
+offset_top = -66.0
+offset_right = -95.0
+offset_bottom = -26.0
+
+[node name="target_button" type="Button" parent="BattleUI/target_panel"]
+layout_mode = 2
+
+[node name="player_party" type="Node2D" parent="."]
+
+[node name="player_character_1" parent="player_party" groups=["combatants", "players"] instance=ExtResource("1_rca61")]
+position = Vector2(136, -46)
+
+[node name="enemy_party" type="Node2D" parent="."]
+
+[node name="enemy" parent="enemy_party" groups=["combatants", "enemies"] instance=ExtResource("2_8qdv8")]
+position = Vector2(-115, -46)
 
 [node name="dungeon_master" type="Node2D" parent="."]
+script = ExtResource("1_kinr6")
 
 [node name="party_manager" parent="." instance=ExtResource("1_idkgt")]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(5, -19)
+zoom = Vector2(3.5, 3.5)
+script = ExtResource("6_1i8jf")

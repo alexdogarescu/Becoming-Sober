@@ -3,7 +3,7 @@ extends CharacterBody2D
 @export var speed = 100
 var current_dir = "none"
 
-#This is written in GL script not C#!!!
+#This is written in GL script not C#!
 #I tried writing code in C# but I got an error. Will look into it
 #GLScript should do just fine tho
 

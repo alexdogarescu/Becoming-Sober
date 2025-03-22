@@ -19,6 +19,12 @@ config/icon="res://art/icon.svg"
 
 project/assembly_name="rpgprojekt"
 
+[global_group]
+
+combatants=""
+players=""
+enemies=""
+
 [importer_defaults]
 
 animation_library={
