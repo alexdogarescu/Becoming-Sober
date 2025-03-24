@@ -1,5 +1,5 @@
 class_name PlayerCharacter extends Character
-
+#const BattleManager = preload("res://scripts/battle_manager.gd")
 var skills = [
 	{"name": "Stab", "damage": 20, "sp_cost": 5},
 	{"name": "Drink", "damage": -10, "sp_cost": 10} #negative damage is healing
@@ -15,6 +15,7 @@ func attack_target(target: Character):
 	wait_with_timer(2)
 	target.take_damage(attack)
 	self.move_local_x(5)
+	#BattleManager.next_turn()
 	
 func get_skills():
 	return skills

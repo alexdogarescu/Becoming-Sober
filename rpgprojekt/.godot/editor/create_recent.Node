@@ -1,12 +1,14 @@
+Node
+AnimationPlayer
+ProgressBar
+TextEdit
+Button
 Timer
 Camera2D
 AnimatedSprite2D
 Sprite2D
-Button
 VBoxContainer
 Node2D
 CharacterBody2D
 Control
 CollisionShape2D
-Area2D
-TileMapLayer
