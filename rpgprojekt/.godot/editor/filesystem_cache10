@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1742854656
+::res://::1743001593
 ::res://art/::1742647101
 icon.svg::CompressedTexture2D/CompressedTexture2D::1171198257854112684::1742044581::1742486433::1::::<><><>0<>0<>e9d6c755ef3b7b9ff89b569d1bc1f8ec<>res://.godot/imported/icon.svg-2ffe2e9772a318535303737ea3c29287.ctex::
 ::res://art/brutalist_clear/::1742647101
@@ -9,22 +9,24 @@ brutalist_tileset_noisy.png::CompressedTexture2D/CompressedTexture2D::4240835148
 ::res://art/characters/::1742647101
 enemy.png::CompressedTexture2D/CompressedTexture2D::6474855150686495995::1742647101::1742647101::1::::<><><>0<>0<>c00268f27f5865b8a7f57e86345a3fe0<>res://.godot/imported/enemy.png-b54989fd2bed9c61d5fba62e2f220c63.ctex::
 player_type.png::CompressedTexture2D/CompressedTexture2D::1398112420946157212::1742647101::1742647101::1::::<><><>0<>0<>0dc7be37b83b2ba3091ff6aa6f2db5d7<>res://.godot/imported/player_type.png-9338a854ac30975a6e05e61553affb0a.ctex::
-::res://scenes/::1742854239
-battle_scene.tscn::PackedScene::7979287882079701120::1742854239::0::1::::<><><>0<>0<><>::uid://kmq68lg7baf3::::res://scenes/party_manager.tscn<>uid://cy3xk2wawooca::::res://scripts/battle_manager.gd<>uid://chytqmgf84nmi::::res://scenes/player_character.tscn<>uid://c6yjdvau0gytf::::res://scenes/enemy.tscn<>uid://cnktqf4jvpv4e::::res://scripts/battle_scene_camera.gd
-enemy.tscn::PackedScene::6998793500511987627::1742854213::0::1::::<><><>0<>0<><>::uid://d3f1csstov21c::::res://scripts/enemy.gd<>uid://cyip6hutwhco6::::res://art/characters/enemy.png
-party_manager.tscn::PackedScene::727689551503174478::1742854213::0::1::::<><><>0<>0<><>::uid://cokq2ukoxlcl8::::res://scripts/party_manager.gd
-player.tscn::PackedScene::5645315117967245320::1742854213::0::1::::<><><>0<>0<><>::uid://bq61px8bbjcmy::::res://scripts/player.gd<>uid://t6iybv70gqoa::::res://art/characters/player_type.png
-player_character.tscn::PackedScene::5314891174336364268::1742854213::0::1::::<><><>0<>0<><>::uid://bfkemdsoihi80::::res://scripts/player_character.gd<>uid://t6iybv70gqoa::::res://art/characters/player_type.png
-world.tscn::PackedScene::7613929004071309473::1742854213::0::1::::<><><>0<>0<><>::uid://bdn233faeacdk::::res://scripts/world.gd<>uid://bkc3ett7123wn::::res://art/brutalist_clear/brutalism_tileset_clear.png<>uid://cmovrrtrcax2w::::res://scenes/player.tscn<>uid://b1oj62g80weyv::::res://art/brutalist_noisy/brutalist_tileset_noisy.png<>uid://bpkodmwcg5eoh::::res://scenes/maybe later scenes/moving_enemy.tscn
-::res://scenes/maybe later scenes/::1742854213
-moving_enemy.tscn::PackedScene::3460753175450601731::1742854213::0::1::::<><><>0<>0<><>::uid://bij58xhypiwtl::::res://scripts/moving_enemy.gd
-::res://scripts/::1742854196
-battle_manager.gd::GDScript::6516591992731447628::1742854196::0::1::::<>Node2D<><>0<>0<><>::
+::res://scenes/::1742990818
+battle_scene.tscn::PackedScene::7979287882079701120::1742990818::0::1::::<><><>0<>0<><>::uid://kmq68lg7baf3::::res://scenes/party_manager.tscn<>uid://cy3xk2wawooca::::res://scripts/battle_manager.gd<>uid://chytqmgf84nmi::::res://scenes/player_character.tscn<>uid://c6yjdvau0gytf::::res://scenes/enemy.tscn<>uid://buax1tednpxkn::::res://scripts/battle_ui.gd<>uid://cfjfx33v7t1yg::::res://scripts/skills_ui.gd<>uid://cnktqf4jvpv4e::::res://scripts/battle_scene_camera.gd
+enemy.tscn::PackedScene::6998793500511987627::1742990818::0::1::::<><><>0<>0<><>::uid://d3f1csstov21c::::res://scripts/enemy.gd<>uid://cyip6hutwhco6::::res://art/characters/enemy.png
+party_manager.tscn::PackedScene::727689551503174478::1742990818::0::1::::<><><>0<>0<><>::uid://cokq2ukoxlcl8::::res://scripts/party_manager.gd
+player.tscn::PackedScene::5645315117967245320::1742990818::0::1::::<><><>0<>0<><>::uid://bq61px8bbjcmy::::res://scripts/player.gd<>uid://t6iybv70gqoa::::res://art/characters/player_type.png
+player_character.tscn::PackedScene::5314891174336364268::1742990818::0::1::::<><><>0<>0<><>::uid://bfkemdsoihi80::::res://scripts/player_character.gd<>uid://t6iybv70gqoa::::res://art/characters/player_type.png
+world.tscn::PackedScene::7613929004071309473::1742990818::0::1::::<><><>0<>0<><>::uid://bdn233faeacdk::::res://scripts/world.gd<>uid://bkc3ett7123wn::::res://art/brutalist_clear/brutalism_tileset_clear.png<>uid://cmovrrtrcax2w::::res://scenes/player.tscn<>uid://b1oj62g80weyv::::res://art/brutalist_noisy/brutalist_tileset_noisy.png<>uid://bpkodmwcg5eoh::::res://scenes/maybe later scenes/moving_enemy.tscn
+::res://scenes/maybe later scenes/::1742990818
+moving_enemy.tscn::PackedScene::3460753175450601731::1742990818::0::1::::<><><>0<>0<><>::uid://bij58xhypiwtl::::res://scripts/moving_enemy.gd
+::res://scripts/::1742990816
+battle_manager.gd::GDScript::6516591992731447628::1742990816::0::1::::<>Node2D<><>0<>0<><>::
 battle_scene_camera.gd::GDScript/GDScript::5707122615639937498::1742657511::0::1::::<>Camera2D<><>0<>0<><>::
-Character.gd::GDScript::7017352787177867560::1742853879::0::1::::Character<>Node2D<><>0<>0<><>::
-enemy.gd::GDScript/GDScript::9136454749223867978::1742650357::0::1::::Enemy<>Character<><>0<>0<><>::
+battle_ui.gd::GDScript::3791641482206070245::1742988032::0::1::::<>Control<><>0<>0<><>::
+Character.gd::GDScript::7017352787177867560::1742987421::0::1::::Character<>Node2D<><>0<>0<><>::
+enemy.gd::GDScript::9136454749223867978::1742990766::0::1::::Enemy<>Character<><>0<>0<><>::
 moving_enemy.gd::GDScript/GDScript::2968392493527273561::1742649523::0::1::::<>CharacterBody2D<><>0<>0<><>::
 party_manager.gd::GDScript/GDScript::5777149710761262631::1742649892::0::1::::<>Node2D<><>0<>0<><>::
 player.gd::GDScript/GDScript::3575044580060701040::1742650381::0::1::::<>CharacterBody2D<><>0<>0<><>::
-player_character.gd::GDScript::2758273162945387411::1742852578::0::1::::PlayerCharacter<>Character<><>0<>0<><>::
+player_character.gd::GDScript::2758273162945387411::1742990664::0::1::::PlayerCharacter<>Character<><>0<>0<><>::
+skills_ui.gd::GDScript::5142711158492558934::1742988069::0::1::::<>MenuButton<><>0<>0<><>::
 world.gd::GDScript/GDScript::2625514964827180792::1742647101::0::1::::<>Node2D<><>0<>0<><>::
