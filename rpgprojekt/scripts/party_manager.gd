@@ -1,8 +1,6 @@
 extends Node2D
 
-@export var active_party: Array = []  # Stores current party members (PlayerCharacter nodes)
-
-active_party.append()
+var active_party: Array = []  # Stores current party members (PlayerCharacter nodes)
 
 func add_to_party(character: Character):
 	active_party.append(character)

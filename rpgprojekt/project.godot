@@ -15,10 +15,6 @@ run/main_scene="uid://dgqike26esdt6"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://art/icon.svg"
 
-[autoload]
-
-PartyManager="*res://scripts/party_manager.gd"
-
 [dotnet]
 
 project/assembly_name="rpgprojekt"

@@ -9,7 +9,7 @@ class_name Character
 @export var defense: int
 @export var max_sp: int
 @export var speed: int
-#@export var skills: Array
+
 @export var hp: int
 @export var sp: int
 
@@ -26,29 +26,10 @@ func _ready():
 		add_to_group("enemies")
 
 func take_damage(damage: int):
-	hp = hp - (damage-defense/4)
+	hp -= damage-defense/4
 	animation_player.play("hurt")
-	# Tween: Move left relative to current position
-	var tween = get_tree().create_tween()
-	tween.tween_property(self, "position", position + Vector2(-5, 0), 0.2)
-	await tween.finished
-	
-	_update_hp_bar()
-	
-	await get_tree().create_timer(0.5).timeout
-
-	# Tween: Move right (overshooting to the right side relative to the current position)
-	tween = get_tree().create_tween()
-	tween.tween_property(self, "position", position + Vector2(2 * 5, 0), 0.2)
-	await tween.finished
-
-	await get_tree().create_timer(0.5).timeout
-
-	tween = get_tree().create_tween()
-	tween.tween_property(self, "position", position + Vector2(-5, 0), 0.2)
-	await tween.finished
 	print(str(damage) + " damage has been taken by " + name)
-	await get_tree().create_timer(0.5).timeout
+	_update_hp_bar()
 	if hp <= 0:
 		die()
 		# Give condition for give in only for player character
@@ -62,6 +43,14 @@ func heal(heal: int):
 	
 func die():
 	queue_free()
+
+@onready var my_timer = $Timer  # Reference to the Timer node
+
+func wait_with_timer(amount: int):
+	print("Starting timer...")
+	my_timer.start(amount) # IN SECONDS, NOT MILISECONDS. DON'T GIVE ABSURD VALUES
+	await my_timer.timeout
+# This is for certain animations, so we don't need to create a new timer everytime
 
 func _update_hp_bar():
 	progress_bar.value = (hp/max_hp) * 100

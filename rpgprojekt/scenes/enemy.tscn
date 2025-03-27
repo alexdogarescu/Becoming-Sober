@@ -39,21 +39,6 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="Animation" id="Animation_4ra3w"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("AnimatedSprite2D:self_modulate")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Color(100, 1, 1, 1)]
-}
-
 [sub_resource type="Animation" id="Animation_md0e3"]
 resource_name = "hurt"
 tracks/0/type = "value"
@@ -69,6 +54,21 @@ tracks/0/keys = {
 "values": [Color(100, 1, 1, 1), Color(1, 1, 1, 1), Color(100, 1, 1, 1), Color(1, 1, 1, 1)]
 }
 
+[sub_resource type="Animation" id="Animation_4ra3w"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(100, 1, 1, 1)]
+}
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_5uy6h"]
 _data = {
 &"RESET": SubResource("Animation_4ra3w"),
@@ -77,17 +77,12 @@ _data = {
 
 [node name="enemy" type="Node2D"]
 script = ExtResource("1_7p1mj")
-max_hp = 10
-attack = 5
-defense = 3
-max_sp = 5
-speed = 7
-hp = 10
-sp = 5
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 self_modulate = Color(100, 1, 1, 1)
 sprite_frames = SubResource("SpriteFrames_nenq2")
+
+[node name="Timer" type="Timer" parent="."]
 
 [node name="ProgressBar" type="ProgressBar" parent="."]
 offset_left = -31.0
