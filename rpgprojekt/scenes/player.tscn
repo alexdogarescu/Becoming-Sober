@@ -1,7 +1,9 @@
-[gd_scene load_steps=56 format=3 uid="uid://cmovrrtrcax2w"]
+[gd_scene load_steps=59 format=3 uid="uid://cmovrrtrcax2w"]
 
 [ext_resource type="Script" uid="uid://bq61px8bbjcmy" path="res://scripts/player.gd" id="1_g2els"]
-[ext_resource type="Texture2D" uid="uid://t6iybv70gqoa" path="res://art/characters/player.png" id="2_g2els"]
+[ext_resource type="Resource" uid="uid://bs3wficc26pu4" path="res://inventory/playerinv.tres" id="2_dqkch"]
+[ext_resource type="Texture2D" uid="uid://c1w4os66my81d" path="res://art/characters/Priest.png" id="3_dqkch"]
+[ext_resource type="PackedScene" uid="uid://16yv88kuya3h" path="res://inventory/inv_ui.tscn" id="3_qhqgy"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_3vyb7"]
 
@@ -51,147 +53,111 @@ region = Rect2(48, 432, 48, 48)
 region = Rect2(96, 432, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lxlsd"]
-atlas = ExtResource("2_g2els")
 region = Rect2(0, 0, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ha2mi"]
-atlas = ExtResource("2_g2els")
 region = Rect2(48, 0, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_apa73"]
-atlas = ExtResource("2_g2els")
 region = Rect2(96, 0, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_74r1k"]
-atlas = ExtResource("2_g2els")
 region = Rect2(144, 0, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8svfe"]
-atlas = ExtResource("2_g2els")
 region = Rect2(192, 0, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2a3c5"]
-atlas = ExtResource("2_g2els")
 region = Rect2(240, 0, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4ni07"]
-atlas = ExtResource("2_g2els")
 region = Rect2(0, 48, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_l71n6"]
-atlas = ExtResource("2_g2els")
 region = Rect2(48, 48, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ke2ow"]
-atlas = ExtResource("2_g2els")
 region = Rect2(96, 48, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ujl30"]
-atlas = ExtResource("2_g2els")
 region = Rect2(144, 48, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_31cv2"]
-atlas = ExtResource("2_g2els")
 region = Rect2(192, 48, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pf23h"]
-atlas = ExtResource("2_g2els")
 region = Rect2(240, 48, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qfm1y"]
-atlas = ExtResource("2_g2els")
 region = Rect2(0, 96, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fulsm"]
-atlas = ExtResource("2_g2els")
 region = Rect2(48, 96, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4r5pv"]
-atlas = ExtResource("2_g2els")
 region = Rect2(96, 96, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_60mlk"]
-atlas = ExtResource("2_g2els")
 region = Rect2(144, 96, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_i4ail"]
-atlas = ExtResource("2_g2els")
 region = Rect2(192, 96, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_a38lo"]
-atlas = ExtResource("2_g2els")
 region = Rect2(240, 96, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dt7fs"]
-atlas = ExtResource("2_g2els")
 region = Rect2(0, 144, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wqfne"]
-atlas = ExtResource("2_g2els")
 region = Rect2(48, 144, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wnwbv"]
-atlas = ExtResource("2_g2els")
 region = Rect2(96, 144, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gl8cc"]
-atlas = ExtResource("2_g2els")
 region = Rect2(144, 144, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_487ah"]
-atlas = ExtResource("2_g2els")
 region = Rect2(192, 144, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_md1ol"]
-atlas = ExtResource("2_g2els")
 region = Rect2(240, 144, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bj30b"]
-atlas = ExtResource("2_g2els")
 region = Rect2(0, 192, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jc3p3"]
-atlas = ExtResource("2_g2els")
 region = Rect2(48, 192, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hax0n"]
-atlas = ExtResource("2_g2els")
 region = Rect2(96, 192, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_t4otl"]
-atlas = ExtResource("2_g2els")
 region = Rect2(144, 192, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_j2b1d"]
-atlas = ExtResource("2_g2els")
 region = Rect2(192, 192, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_cs1tg"]
-atlas = ExtResource("2_g2els")
 region = Rect2(240, 192, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2dvfe"]
-atlas = ExtResource("2_g2els")
 region = Rect2(0, 240, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_giy8y"]
-atlas = ExtResource("2_g2els")
 region = Rect2(48, 240, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fdfoy"]
-atlas = ExtResource("2_g2els")
 region = Rect2(96, 240, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hhpqf"]
-atlas = ExtResource("2_g2els")
 region = Rect2(144, 240, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_g5jhy"]
-atlas = ExtResource("2_g2els")
 region = Rect2(192, 240, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_holxr"]
-atlas = ExtResource("2_g2els")
 region = Rect2(240, 240, 48, 48)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_u8vuu"]
@@ -400,9 +366,13 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_qhqgy"]
+radius = 24.0208
+
 [node name="Player" type="CharacterBody2D"]
 collision_layer = 3
 script = ExtResource("1_g2els")
+inv = ExtResource("2_dqkch")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 scale = Vector2(2, 2)
@@ -413,3 +383,19 @@ sprite_frames = SubResource("SpriteFrames_u8vuu")
 animation = &"walk_up"
 frame_progress = 0.224469
 offset = Vector2(0, -9)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("3_dqkch")
+
+[node name="Inv_UI" parent="." instance=ExtResource("3_qhqgy")]
+offset_left = -21.0
+offset_top = -67.0
+offset_right = 41.0
+offset_bottom = -27.0
+
+[node name="pickup_area" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="pickup_area"]
+shape = SubResource("CircleShape2D_qhqgy")
+
+[connection signal="body_entered" from="pickup_area" to="." method="_on_pickup_area_body_entered"]

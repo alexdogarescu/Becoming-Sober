@@ -1,7 +1,9 @@
 extends CharacterBody2D
 
 @export var speed = 100
+@export var inv: Inventory
 var current_dir = "none"
+@onready var pickup_area = $pickup_area
 
 #This is written in GL script not C#!!!
 #I tried writing code in C# but I got an error. Will look into it
@@ -26,6 +28,9 @@ func _physics_process(delta):
 	if !direction: #direction is variable of Vector2 so it's (0, 0) here. !(0,0) is basically acting like 1
 		play_anim(0)
 	move_and_slide() #function that moves the given object
+	if Input.is_action_just_pressed("e"):
+		collect(ItemNode.new())
+		#check_pickup()
 	
 #this is the basic input movement for 2d top-down games in godot
 #UP TO HERE NO REASON TO CHANGE THE CODE, adding is sufficient
@@ -52,3 +57,29 @@ func play_anim(movement):
 		anim.play("walk_down")
 	else: anim.play("idle_down")
 	
+
+
+
+	
+func collect(item: Node2D):
+	if pickup_area.get_overlapping_areas():
+		$"../empty_bottle".queue_free()
+		inv.insert($"../empty_bottle".get_item())
+		print("Picked up: ", ItemNode)
+
+func check_pickup():
+	for area in pickup_area.get_overlapping_areas():
+		if area is ItemNode:
+			print("Picked up: ", ItemNode)
+			area.try_pick_up()
+			_on_item_picked_up(area.item)
+
+func _on_item_picked_up(item: Item):
+	inv.append(item)
+	print("Picked up:", item.name)
+
+
+
+func _on_pickup_area_body_entered(body: Node2D) -> void:
+	if body.has_method("item_node"):
+		inv.insert(body.get_item())

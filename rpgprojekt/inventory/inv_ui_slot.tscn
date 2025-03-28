@@ -1,0 +1,50 @@
+[gd_scene load_steps=2 format=3 uid="uid://0wooxpkyte1r"]
+
+[ext_resource type="Script" uid="uid://dgcwuu7k8366s" path="res://inventory/inv_ui_slot.gd" id="1_dfngl"]
+
+[node name="inv_UI_slot" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_top = -3.0
+offset_right = 47.0
+offset_bottom = 40.0
+script = ExtResource("1_dfngl")
+
+[node name="Label" type="Label" parent="."]
+visibility_layer = 3
+layout_mode = 0
+offset_right = 55.0
+offset_bottom = 23.0
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 0
+offset_left = -1.0
+offset_right = 57.0
+offset_bottom = 32.0
+
+[node name="Panel" type="Panel" parent="CenterContainer"]
+layout_mode = 2
+
+[node name="item_display" type="Sprite2D" parent="CenterContainer/Panel"]
+rotation = -0.00259749
+
+[node name="Label" type="Label" parent="CenterContainer/Panel"]
+light_mask = 3
+visibility_layer = 3
+custom_minimum_size = Vector2(19, 23)
+layout_mode = 0
+offset_top = -4.0
+offset_right = 19.0
+offset_bottom = 19.0
+scale = Vector2(0.415, 0.415)
+text = "99"
+horizontal_alignment = 2
+
+[node name="ColorRect" type="ColorRect" parent="CenterContainer/Panel"]
+layout_mode = 0
+offset_left = -27.0
+offset_top = -16.0
+offset_right = -6.0
+offset_bottom = 24.0
+color = Color(0, 0, 0, 1)
