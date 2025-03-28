@@ -2,12 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://vl5t8koo1lv4"
-valid=false
+uid="uid://bkc3ett7123wn"
+path="res://.godot/imported/brutalism_tileset_clear.png-29000d0fbc83ec109d122ae44bee6b9c.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://art/characters/skeleton_swordless.png"
+source_file="res://art/brutalist_clear/brutalism_tileset_clear.png"
+dest_files=["res://.godot/imported/brutalism_tileset_clear.png-29000d0fbc83ec109d122ae44bee6b9c.ctex"]
 
 [params]
 

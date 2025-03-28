@@ -2,12 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cyip6hutwhco6"
-valid=false
+uid="uid://t6iybv70gqoa"
+path="res://.godot/imported/player_type.png-9338a854ac30975a6e05e61553affb0a.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://art/characters/slime.png"
+source_file="res://art/characters/player_type.png"
+dest_files=["res://.godot/imported/player_type.png-9338a854ac30975a6e05e61553affb0a.ctex"]
 
 [params]
 

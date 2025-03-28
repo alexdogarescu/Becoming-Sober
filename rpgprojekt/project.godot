@@ -11,13 +11,19 @@ config_version=5
 [application]
 
 config/name="rpgprojekt"
-run/main_scene="uid://cmovrrtrcax2w"
+run/main_scene="uid://dgqike26esdt6"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://art/icon.svg"
 
 [dotnet]
 
 project/assembly_name="rpgprojekt"
+
+[global_group]
+
+combatants=""
+players=""
+enemies=""
 
 [importer_defaults]
 
