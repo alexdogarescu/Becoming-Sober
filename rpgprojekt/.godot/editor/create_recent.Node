@@ -1,3 +1,5 @@
+Node2D
+StaticBody2D
 ColorRect
 Label
 AnimationPlayer
@@ -11,4 +13,3 @@ CenterContainer
 NinePatchRect
 RichTextLabel
 Control
-GridContainer

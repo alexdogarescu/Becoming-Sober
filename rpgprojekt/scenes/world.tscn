@@ -18,9 +18,13 @@ script = ExtResource("4_qfnet")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 offset = Vector2(10, 0)
-zoom = Vector2(1.51, 1.51)
-
-[node name="empty_bottle" parent="." instance=ExtResource("5_71j4m")]
-position = Vector2(67, 63)
+zoom = Vector2(2.11, 2.11)
 
 [node name="scene_changer" parent="." instance=ExtResource("5_qfnet")]
+visible = false
+
+[node name="empty_bottle2" parent="." instance=ExtResource("5_71j4m")]
+position = Vector2(-84, -64)
+
+[node name="empty_bottle" parent="." instance=ExtResource("5_71j4m")]
+position = Vector2(71, 67)

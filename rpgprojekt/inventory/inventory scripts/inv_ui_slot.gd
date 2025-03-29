@@ -8,7 +8,8 @@ func update(slot: InvSlot):
 	if slot.item:
 		item_visual.visible = true
 		$Label.text = slot.item.name
-		amount_text.visible = true
+		if slot.amount > 1:
+			amount_text.visible = true
 		amount_text.text = str(slot.amount)
 	else:
 		item_visual.visible = false

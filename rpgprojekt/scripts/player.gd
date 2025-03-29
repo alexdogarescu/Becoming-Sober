@@ -68,19 +68,14 @@ func collect(item):
 	inv.insert(item)
 	print("item picked")
 
-func check_pickup():
-	for area in pickup_area.get_overlapping_areas():
-		if area is ItemNode:
-			print("Picked up: ", ItemNode)
-			area.try_pick_up()
-			_on_item_picked_up(area.item)
 
-func _on_item_picked_up(item: Item):
-	inv.append(item)
-	print("Picked up:", item.name)
+
+#func _on_item_picked_up(item: Item):
+	#inv.append(item)
+	#print("Picked up:", item.name)
 
 
 
-func _on_pickup_area_body_entered(body: Node2D) -> void:
-	if body.has_method("item_node"):
-		inv.insert(body.get_item())
+#func _on_pickup_area_body_entered(body: Node2D) -> void:
+	#if body.has_method("item_node"):
+		#inv.insert(body.get_item())
