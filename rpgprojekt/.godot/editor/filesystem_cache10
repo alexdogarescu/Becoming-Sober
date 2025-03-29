@@ -1,50 +1,59 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1743177598
-inv_slot.gd::GDScript/GDScript::7587451142033248997::1743093600::0::1::::InvSlot<>Resource<><>0<>0<><>::
-::res://art/::1742653099
+::res://::1743269133
+::res://art/::1743178014
 icon.svg::CompressedTexture2D/CompressedTexture2D::1171198257854112684::1742131521::1742579073::1::::<><><>0<>0<>e9d6c755ef3b7b9ff89b569d1bc1f8ec<>res://.godot/imported/icon.svg-2ffe2e9772a318535303737ea3c29287.ctex::
-::res://art/brutalist_clear/::1742646530
-brutalism_tileset.png::CompressedTexture2D/CompressedTexture2D::3094146123339334305::1742646530::1742646530::0::::<><><>0<>0<>5093132a8a32af784ee93fc59130bfdf<>::
+::res://art/brutalist_clear/::1743178220
+brutalism_tileset_clear.png::CompressedTexture2D/CompressedTexture2D::3094146123339334305::1743177916::1743178220::1::::<><><>0<>0<>2cf050e79f97f5f5e453fadcb9dece09<>res://.godot/imported/brutalism_tileset_clear.png-29000d0fbc83ec109d122ae44bee6b9c.ctex::
 ::res://art/brutalist_noisy/::1742646445
 brutalist_tileset_noisy.png::CompressedTexture2D/CompressedTexture2D::4240835148317657781::1742646445::1742646445::1::::<><><>0<>0<>62845e7497a64347943c0f466f66244e<>res://.godot/imported/brutalist_tileset_noisy.png-334ed617a05161b543b0fa0cf292b2aa.ctex::
-::res://art/characters/::1742938358
-player.jpg::CompressedTexture2D/CompressedTexture2D::658181106619457130::1742216402::1742647249::1::::<><><>0<>0<>4b3a5991c770072661e36dc394054e0b<>res://.godot/imported/player.jpg-a22defad2fed6ff6da5c3ff45c1c6464.ctex::
-Priest.png::CompressedTexture2D/CompressedTexture2D::6644954401204011163::1742938356::1742938358::1::::<><><>0<>0<>067a553fe51bafbf9663baf35eec226b<>res://.godot/imported/Priest.png-e9d70cc65aea8377e36b3e6c7789c9a2.ctex::
-skeleton.png::CompressedTexture2D/CompressedTexture2D::2854597643358403010::1742646530::1742646530::0::::<><><>0<>0<>7ae10ddb8c1f1fd72a6c042e745b6ea0<>::
-skeleton_swordless.png::CompressedTexture2D/CompressedTexture2D::1498531060934963459::1742646530::1742646530::0::::<><><>0<>0<>dd2cc2a4c2f4fca3117685ec774040d2<>::
-slime.png::CompressedTexture2D/CompressedTexture2D::6474855150686495995::1742646530::1742646530::0::::<><><>0<>0<>a0d1693256fc56a4344215420d2a3a44<>::
-slimee.png::CompressedTexture2D/CompressedTexture2D::8715464678130668739::1742646530::1742646530::0::::<><><>0<>0<>d265231d4e2e8195d20c8871ebd91da9<>::
-::res://art/items/::1742653185
-beer-bottle-2M7weoA-..._imresizer.jpg::CompressedTexture2D/CompressedTexture2D::7758978333284672193::1742653150::1742653185::1::::<><><>0<>0<>00090638c08e89c611c04f1da18aca88<>res://.godot/imported/beer-bottle-2M7weoA-..._imresizer.jpg-a4ee3c3e2a98e71387f7e67ac3aa74a6.ctex::
-::res://inventory/::1743172898
-inventory.gd::GDScript/GDScript::2040433049357275001::1743095393::0::1::::Inventory<>Resource<><>0<>0<><>::
-inv_ui.gd::GDScript/GDScript::6703839514649532299::1743095816::0::1::::<>Control<><>0<>0<><>::
-inv_ui.tscn::PackedScene::1890402139194218687::1743172898::0::1::::<><><>0<>0<><>::uid://c2rni0rnscmvb::::res://inventory/inv_ui.gd<>uid://0wooxpkyte1r::::res://inventory/inv_ui_slot.tscn
-inv_ui_slot.gd::GDScript/GDScript::7585896458534912092::1743095798::0::1::::<>Control<><>0<>0<><>::
-inv_ui_slot.tscn::PackedScene::1801013672249821869::1743172898::0::1::::<><><>0<>0<><>::uid://dgcwuu7k8366s::::res://inventory/inv_ui_slot.gd
-playerinv.tres::Resource/Inventory::3708967572506342761::1743168916::0::1::::<><><>0<>0<><>::uid://dgdohg2mjlcqv::::res://inv_slot.gd<>uid://4cnvtfchi5j6::::res://inventory/inventory.gd
-::res://Items/::1742845070
-Item.gd::GDScript/GDScript::114535875476376968::1742652007::0::1::::Item<>Resource<><>0<>0<><>::
+::res://art/characters/::1743178303
+enemy.png::CompressedTexture2D/CompressedTexture2D::6474855150686495995::1743177916::1743178220::1::::<><><>0<>0<>c00268f27f5865b8a7f57e86345a3fe0<>res://.godot/imported/enemy.png-b54989fd2bed9c61d5fba62e2f220c63.ctex::
+player.jpg::CompressedTexture2D/CompressedTexture2D::658181106619457130::1743178014::1743178303::0::::<><><>0<>0<>8124c12103399a2afa882675e5838495<>::
+player_type.png::CompressedTexture2D/CompressedTexture2D::1398112420946157212::1743177916::1743178220::1::::<><><>0<>0<>0dc7be37b83b2ba3091ff6aa6f2db5d7<>res://.godot/imported/player_type.png-9338a854ac30975a6e05e61553affb0a.ctex::
+Priest.png::CompressedTexture2D/CompressedTexture2D::6644954401204011163::1743178014::1743178014::1::::<><><>0<>0<>067a553fe51bafbf9663baf35eec226b<>res://.godot/imported/Priest.png-e9d70cc65aea8377e36b3e6c7789c9a2.ctex::
+::res://art/items/::1743178014
+beer-bottle-2M7weoA-..._imresizer.jpg::CompressedTexture2D/CompressedTexture2D::7758978333284672193::1743178014::1743178014::1::::<><><>0<>0<>00090638c08e89c611c04f1da18aca88<>res://.godot/imported/beer-bottle-2M7weoA-..._imresizer.jpg-a4ee3c3e2a98e71387f7e67ac3aa74a6.ctex::
+::res://inventory/::1743268561
+inv_ui.tscn::PackedScene/PackedScene::1890402139194218687::1743268561::0::1::::<><><>0<>0<><>::uid://c2rni0rnscmvb::::res://inventory/inventory scripts/inv_ui.gd<>uid://0wooxpkyte1r::::res://inventory/inv_ui_slot.tscn
+inv_ui_slot.tscn::PackedScene/PackedScene::1801013672249821869::1743268561::0::1::::<><><>0<>0<><>::uid://dgcwuu7k8366s::::res://inventory/inventory scripts/inv_ui_slot.gd
+playerinv.tres::Resource/Inventory::3708967572506342761::1743266173::0::1::::<><><>0<>0<><>::uid://dgdohg2mjlcqv::::res://inventory/inventory scripts/inv_slot.gd<>uid://4cnvtfchi5j6::::res://inventory/inventory scripts/inventory.gd
+::res://inventory/inventory scripts/::1743268548
+inventory.gd::GDScript/GDScript::2040433049357275001::1743178014::0::1::::Inventory<>Resource<><>0<>0<><>::
+inv_slot.gd::GDScript/GDScript::7587451142033248997::1743178014::0::1::::InvSlot<>Resource<><>0<>0<><>::
+inv_ui.gd::GDScript/GDScript::6703839514649532299::1743178014::0::1::::<>Control<><>0<>0<><>::
+inv_ui_slot.gd::GDScript/GDScript::7585896458534912092::1743178014::0::1::::<>Control<><>0<>0<><>::
+item_area.gd::GDScript/GDScript::7443210928437513404::1743268548::0::1::::ItemArea<>Area2D<><>0<>0<><>::
+::res://Items/::1743266197
+::res://Items/Item Scripts/::1743269133
+Item.gd::GDScript/GDScript::114535875476376968::1743178014::0::1::::Item<>Resource<><>0<>0<><>::
+item_node.gd::GDScript::367340736606835373::1743269133::0::1::::ItemNode<>Node2D<><>0<>0<><>::
 ::res://Items/Item-Icon/::1742650250
-::res://Items/Item-Scenes-res/::1743172898
-empty_bottle.tres::Resource/Item::1340921711713881198::1742653209::0::1::::<><><>0<>0<><>::uid://bvqnh3tmt2oi::::res://Items/Item.gd<>uid://disrie6g8shhx::::res://art/items/beer-bottle-2M7weoA-..._imresizer.jpg
-empty_bottle.tscn::PackedScene::4748536200267899044::1743172898::0::1::::<><><>0<>0<><>::uid://fh7bv16ja1gj::::res://Items/Item-Scenes-res/item_node.gd<>uid://tds1xddhqf7k::::res://Items/Item-Scenes-res/empty_bottle.tres<>uid://disrie6g8shhx::::res://art/items/beer-bottle-2M7weoA-..._imresizer.jpg
-item_node.gd::GDScript::367340736606835373::1743172738::0::1::::ItemNode<>Node2D<><>0<>0<><>::
-::res://scenes/::1743172898
-battle_scene.tscn::PackedScene/PackedScene::7979287882079701120::1742646530::0::1::::<><><>0<>0<><>::uid://t6iybv70gqoa::::res://art/characters/player.png
-enemy.tscn::PackedScene::3460753175450601731::1743172898::0::1::::<><><>0<>0<><>::uid://bij58xhypiwtl::::res://scripts/enemy.gd<>uid://jm3e8sreo56e::::res://art/characters/player.jpg
-enemy_group.tscn::PackedScene/PackedScene::6639894311340432376::1742656953::0::1::::<><><>0<>0<><>::uid://bhkeq26esf7y5::::res://scripts/enemy_group.gd<>uid://kowf0qwe0k1b::::res://scenes/enemy_member.tscn
-enemy_member.tscn::PackedScene/PackedScene::732135766554091365::1742646530::0::1::::<><><>0<>0<><>::uid://cyip6hutwhco6::::res://art/characters/slime.png
-party_member.tscn::PackedScene/PackedScene::5953815206478493688::1742656953::0::1::::<><><>0<>0<><>::
-player.tscn::PackedScene::5645315117967245320::1743172898::0::1::::<><><>0<>0<><>::uid://bq61px8bbjcmy::::res://scripts/player.gd<>uid://bs3wficc26pu4::::res://inventory/playerinv.tres<>uid://c1w4os66my81d::::res://art/characters/Priest.png<>uid://16yv88kuya3h::::res://inventory/inv_ui.tscn
-player_group.tscn::PackedScene/PackedScene::2599960099945374148::1742646530::0::1::::<><><>0<>0<><>::
-scene_changer.tscn::PackedScene/PackedScene::8191113229583477105::1743095856::0::1::::<><><>0<>0<><>::uid://cl47ev3hy0tln::::res://scripts/scene_changer.gd
-world.tscn::PackedScene::7613929004071309473::1743172898::0::1::::<><><>0<>0<><>::uid://bdn233faeacdk::::res://scripts/world.gd<>uid://cmovrrtrcax2w::::res://scenes/player.tscn<>uid://bpkodmwcg5eoh::::res://scenes/enemy.tscn<>uid://b8whxyirwpfts::::res://Items/Item-Scenes-res/empty_bottle.tscn<>uid://dox3o5rh16wgv::::res://scenes/scene_changer.tscn
-::res://scripts/::1743172898
-enemy.gd::GDScript/GDScript::2968392493527273561::1743002701::0::1::::<>CharacterBody2D<><>0<>0<><>::
-player.gd::GDScript::3575044580060701040::1743172898::0::1::::<>CharacterBody2D<><>0<>0<><>::
-scene_changer.gd::GDScript/GDScript::5606736835812439927::1743002779::0::1::::<>CanvasLayer<><>0<>0<><>::
+::res://Items/Item-Scenes-res/::1743268561
+empty_bottle.tres::Resource/Item::1340921711713881198::1743266197::0::1::::<><><>0<>0<><>::uid://bvqnh3tmt2oi::::res://Items/Item Scripts/Item.gd<>uid://disrie6g8shhx::::res://art/items/beer-bottle-2M7weoA-..._imresizer.jpg
+empty_bottle.tscn::PackedScene/PackedScene::4748536200267899044::1743268561::0::1::::<><><>0<>0<><>::uid://fh7bv16ja1gj::::res://Items/Item Scripts/item_node.gd<>uid://tds1xddhqf7k::::res://Items/Item-Scenes-res/empty_bottle.tres<>uid://disrie6g8shhx::::res://art/items/beer-bottle-2M7weoA-..._imresizer.jpg<>uid://debsujt2l6ouu::::res://inventory/inventory scripts/item_area.gd
+::res://scenes/::1743269133
+battle_scene.tscn::PackedScene/PackedScene::7979287882079701120::1743177916::0::1::::<><><>0<>0<><>::uid://kmq68lg7baf3::::res://scenes/party_manager.tscn<>uid://cy3xk2wawooca::::res://scripts/battle_manager.gd<>uid://chytqmgf84nmi::::res://scenes/player_character.tscn<>uid://c6yjdvau0gytf::::res://scenes/enemy.tscn<>uid://cnktqf4jvpv4e::::res://scripts/battle_scene_camera.gd
+enemy.tscn::PackedScene::3460753175450601731::1743269142::0::1::::<><><>0<>0<><>::uid://bij58xhypiwtl::::res://stats/non-used scripts/moving_enemy.gd<>uid://t6iybv70gqoa::::res://art/characters/player_type.png
+enemy_group.tscn::PackedScene/PackedScene::6639894311340432376::1743178184::0::1::::<><><>0<>0<><>::uid://bhkeq26esf7y5::::res://scripts/enemy_group.gd<>uid://kowf0qwe0k1b::::res://scenes/enemy_member.tscn
+party_manager.tscn::PackedScene/PackedScene::727689551503174478::1743177916::0::1::::<><><>0<>0<><>::uid://cokq2ukoxlcl8::::res://scripts/party_manager.gd
+player.tscn::PackedScene/PackedScene::5645315117967245320::1743268561::0::1::::<><><>0<>0<><>::uid://bq61px8bbjcmy::::res://scripts/player.gd<>uid://bs3wficc26pu4::::res://inventory/playerinv.tres<>uid://c1w4os66my81d::::res://art/characters/Priest.png<>uid://16yv88kuya3h::::res://inventory/inv_ui.tscn
+player_character.tscn::PackedScene/PackedScene::5314891174336364268::1743177916::0::1::::<><><>0<>0<><>::uid://bfkemdsoihi80::::res://scripts/player_character.gd<>uid://t6iybv70gqoa::::res://art/characters/player_type.png
+scene_changer.tscn::PackedScene/PackedScene::8191113229583477105::1743178014::0::1::::<><><>0<>0<><>::uid://cl47ev3hy0tln::::res://scripts/scene_changer.gd
+world.tscn::PackedScene/PackedScene::7613929004071309473::1743268561::0::1::::<><><>0<>0<><>::uid://bdn233faeacdk::::res://scripts/world.gd<>uid://cmovrrtrcax2w::::res://scenes/player.tscn<>uid://bpkodmwcg5eoh::::res://scenes/enemy.tscn<>uid://d3f1csstov21c::::res://scripts/enemy.gd<>uid://b8whxyirwpfts::::res://Items/Item-Scenes-res/empty_bottle.tscn<>uid://dox3o5rh16wgv::::res://scenes/scene_changer.tscn
+::res://scenes/maybe later scenes/::1743269133
+moving_enemy.tscn::PackedScene::3460753175450601731::1743269133::0::1::::<><><>0<>0<><>::uid://bij58xhypiwtl::::res://stats/non-used scripts/moving_enemy.gd
+::res://scripts/::1743268614
+battle_manager.gd::GDScript/GDScript::6516591992731447628::1743177916::0::1::::<>Node2D<><>0<>0<><>::
+battle_scene_camera.gd::GDScript/GDScript::5707122615639937498::1743177916::0::1::::<>Camera2D<><>0<>0<><>::
+Character.gd::GDScript/GDScript::7017352787177867560::1743177916::0::1::::Character<>Node2D<><>0<>0<><>::
+enemy.gd::GDScript/GDScript::9136454749223867978::1743178184::0::1::::<>CharacterBody2D<><>0<>0<><>::
+party_manager.gd::GDScript/GDScript::5777149710761262631::1743177916::0::1::::<>Node2D<><>0<>0<><>::
+player.gd::GDScript/GDScript::3575044580060701040::1743268561::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player_character.gd::GDScript/GDScript::2758273162945387411::1743177916::0::1::::PlayerCharacter<>Character<><>0<>0<><>::
+scene_changer.gd::GDScript/GDScript::5606736835812439927::1743178014::0::1::::<>CanvasLayer<><>0<>0<><>::
 world.gd::GDScript/GDScript::2625514964827180792::1742646530::0::1::::<>Node2D<><>0<>0<><>::
-::res://stats/::1743007104
-character_stats.gd::GDScript/GDScript::2985756163817899154::1743007104::0::1::::Character_Stats<>Resource<><>0<>0<><>::
-enemy_stats.gd::GDScript/GDScript::7780448592445728092::1743002865::0::1::::Enemy_Stats<>Resource<><>0<>0<><>::
+::res://stats/::1743269133
+character_stats.gd::GDScript/GDScript::2985756163817899154::1743178014::0::1::::Character_Stats<>Resource<><>0<>0<><>::
+enemy_stats.gd::GDScript/GDScript::7780448592445728092::1743178014::0::1::::Enemy_Stats<>Resource<><>0<>0<><>::
+::res://stats/non-used scripts/::1743268614
+moving_enemy.gd::GDScript::2968392493527273561::1743178398::0::1::::<>CharacterBody2D<><>0<>0<><>::

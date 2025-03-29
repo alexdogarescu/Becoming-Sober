@@ -7,21 +7,22 @@ var player = null
 
 
 func _physics_process(_delta):
-	if player_chase:
-		position += (player.position - position)/speed
-		$AnimatedSprite2D.play("walk")
+	pass
+	#if player_chase:
+		#position += (player.position - position)/speed
+		#$AnimatedSprite2D.play("walk")
 		
-		if(player.position.x-position.x)<0:
-			$AnimatedSprite2D.flip_h = true
-		else:
-			$AnimatedSprite2D.flip_h = false
+		#if(player.position.x-position.x)<0:
+			#$AnimatedSprite2D.flip_h = true
+		#else:
+			#$AnimatedSprite2D.flip_h = false
 		#This flips the sprite in the right direction.
-		if player_hit: 
-			change_scene()
+		#if player_hit: 
+			#change_scene()
 		
 		
-	else:
-		$AnimatedSprite2D.play("idle")
+	#else:
+		#d$AnimatedSprite2D.play("idle")
 
 func _on_detection_area_body_entered(body):
 	player = body

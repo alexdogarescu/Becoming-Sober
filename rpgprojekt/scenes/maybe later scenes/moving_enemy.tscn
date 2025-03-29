@@ -1,6 +1,6 @@
 [gd_scene load_steps=15 format=3 uid="uid://bpkodmwcg5eoh"]
 
-[ext_resource type="Script" uid="uid://bij58xhypiwtl" path="res://scripts/moving_enemy.gd" id="1_md0e3"]
+[ext_resource type="Script" uid="uid://bij58xhypiwtl" path="res://non-used scripts/moving_enemy.gd" id="1_md0e3"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_md0e3"]
 region = Rect2(0, 0, 32, 32)

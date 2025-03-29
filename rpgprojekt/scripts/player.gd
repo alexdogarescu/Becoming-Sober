@@ -1,3 +1,5 @@
+class_name Player
+
 extends CharacterBody2D
 
 @export var speed = 100
@@ -28,8 +30,8 @@ func _physics_process(delta):
 	#if !direction: #direction is variable of Vector2 so it's (0, 0) here. !(0,0) is basically acting like 1
 #		play_anim(0)
 	move_and_slide() #function that moves the given object
-	if Input.is_action_just_pressed("e"):
-		collect(ItemNode.new())
+	#if Input.is_action_just_pressed("e"):
+		#collect(ItemNode.new())
 		#check_pickup()
 	
 #this is the basic input movement for 2d top-down games in godot
@@ -61,11 +63,10 @@ func _physics_process(delta):
 
 
 	
-func collect(item: Node2D):
-	if pickup_area.get_overlapping_areas():
-		$"../empty_bottle".queue_free()
-		inv.insert($"../empty_bottle".get_item())
-		print("Picked up: ", ItemNode)
+func collect(item):
+	#if is ItemNode
+	inv.insert(item)
+	print("item picked")
 
 func check_pickup():
 	for area in pickup_area.get_overlapping_areas():

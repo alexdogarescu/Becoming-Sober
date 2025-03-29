@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://dgqike26esdt6"]
+[gd_scene load_steps=7 format=3 uid="uid://dgqike26esdt6"]
 
 [ext_resource type="Script" uid="uid://bdn233faeacdk" path="res://scripts/world.gd" id="1_k0juu"]
 [ext_resource type="PackedScene" uid="uid://cmovrrtrcax2w" path="res://scenes/player.tscn" id="3_4wyf3"]
 [ext_resource type="PackedScene" uid="uid://bpkodmwcg5eoh" path="res://scenes/enemy.tscn" id="3_k0juu"]
+[ext_resource type="Script" uid="uid://d3f1csstov21c" path="res://scripts/enemy.gd" id="4_qfnet"]
 [ext_resource type="PackedScene" uid="uid://b8whxyirwpfts" path="res://Items/Item-Scenes-res/empty_bottle.tscn" id="5_71j4m"]
 [ext_resource type="PackedScene" uid="uid://dox3o5rh16wgv" path="res://scenes/scene_changer.tscn" id="5_qfnet"]
 
@@ -13,6 +14,7 @@ script = ExtResource("1_k0juu")
 
 [node name="Enemy" parent="." instance=ExtResource("3_k0juu")]
 position = Vector2(214, -1)
+script = ExtResource("4_qfnet")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 offset = Vector2(10, 0)

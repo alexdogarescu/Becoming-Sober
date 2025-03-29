@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://tds1xddhqf7k"]
 
-[ext_resource type="Script" uid="uid://bvqnh3tmt2oi" path="res://Items/Item.gd" id="1_c3yfh"]
+[ext_resource type="Script" uid="uid://bvqnh3tmt2oi" path="res://Items/Item Scripts/Item.gd" id="1_c3yfh"]
 [ext_resource type="Texture2D" uid="uid://disrie6g8shhx" path="res://art/items/beer-bottle-2M7weoA-..._imresizer.jpg" id="2_atj2o"]
 
 [resource]
