@@ -1,5 +1,7 @@
 extends CharacterBody2D
 
+class_name Enemy
+
 var speed = 25
 var player_chase = false
 var player = null

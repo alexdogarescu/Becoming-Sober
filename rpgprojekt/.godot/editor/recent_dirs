@@ -1,3 +1,4 @@
+res://art/characters
 res://inventory/inventory scripts
 res://scripts
 res://stats
@@ -5,5 +6,4 @@ res://scenes
 res://Items
 res://inventory
 res://Items/Item-Scenes-res
-res://art/characters
 res://art/brutalist_noisy

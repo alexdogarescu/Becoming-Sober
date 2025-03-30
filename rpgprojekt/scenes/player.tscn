@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://bq61px8bbjcmy" path="res://scripts/player.gd" id="1_g2els"]
 [ext_resource type="Resource" uid="uid://bs3wficc26pu4" path="res://inventory/playerinv.tres" id="2_dqkch"]
-[ext_resource type="Texture2D" uid="uid://c1w4os66my81d" path="res://art/characters/Priest.png" id="3_dqkch"]
+[ext_resource type="Texture2D" uid="uid://cm57t4rsogct6" path="res://art/characters/player_overworld.png" id="3_dqkch"]
 [ext_resource type="PackedScene" uid="uid://16yv88kuya3h" path="res://inventory/inv_ui.tscn" id="3_qhqgy"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_3vyb7"]
@@ -388,6 +388,7 @@ offset = Vector2(0, -9)
 texture = ExtResource("3_dqkch")
 
 [node name="Inv_UI" parent="." instance=ExtResource("3_qhqgy")]
+visible = false
 offset_left = -21.0
 offset_top = -67.0
 offset_right = 41.0
