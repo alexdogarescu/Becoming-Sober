@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Enemy_Stats" load_steps=3 format=3 uid="uid://bnmomtdu6kpn7"]
+
+[ext_resource type="Script" uid="uid://di3537oq08to3" path="res://stats/enemy_stats.gd" id="1_c531d"]
+[ext_resource type="Texture2D" uid="uid://recstoxs5b38" path="res://art/characters/corporatista.png" id="2_4g3xn"]
+
+[resource]
+script = ExtResource("1_c531d")
+texture = ExtResource("2_4g3xn")
+speed = 0
+max_hp = 0
+attack = 0
+max_sp = 0
+defence = 0
+skills = []
+metadata/_custom_type_script = "uid://di3537oq08to3"

@@ -2,9 +2,9 @@ extends CharacterBody2D
 
 class_name Enemy
 
-var speed = 25
 var player_chase = false
 var player = null
+var speed = 25
 @export var player_hit = false
 
 

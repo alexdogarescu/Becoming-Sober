@@ -14,7 +14,7 @@ func setup_battle():
 	party = get_tree().get_nodes_in_group("players")
 	enemies = get_tree().get_nodes_in_group("enemies")
 	turn_order.append_array(party + enemies)  # Combine both groups
-	turn_order.sort_custom(func(a, b): return a.attack > b.attack)  # Sort by speed
+	#turn_order.sort_custom(func(a, b): return a.stats.speed > b.stats.speed)  # Sort by speed
 	current_turn_index = 0
 	next_turn()
 

@@ -2,31 +2,28 @@ extends Node2D
 
 class_name Character
 @onready var animation_player = $AnimationPlayer
-@onready var progress_bar = $ProgressBar
-@export var max_hp: int
-@export var character_name: String
-@export var attack: int
-@export var defense: int
-@export var max_sp: int
-@export var speed: int
-
+@onready var health_bar = $ProgressBar
+@export var stats: Resource
 @export var hp: int
 @export var sp: int
 
+
 func _ready():
-	hp = max_hp
-	sp = max_sp
 	#speed = $stats.get_meta("speed", 5)
 	#HOW THE FUCK CAN I STORE STATS FOR DIFFERENT CHARACTERS?!?!?!!
 	#METADATA _MUST_ BE UNIQUE????!!
+	hp = stats.max_hp
+	sp = stats.max_sp
 	add_to_group("combatants")
 	if self is PlayerCharacter:
 		add_to_group("players")
-	elif self is Enemy:
+		stats = Character_Stats
+	elif self is EnemyCharacter:
 		add_to_group("enemies")
+		stats = Enemy_Stats
 
 func take_damage(damage: int):
-	hp -= damage-defense/4
+	hp -= damage-stats.defence/4
 	animation_player.play("hurt")
 	print(str(damage) + " damage has been taken by " + name)
 	_update_hp_bar()
@@ -35,8 +32,8 @@ func take_damage(damage: int):
 		# Give condition for give in only for player character
 
 func heal(heal: int):
-	if hp+heal > max_hp:
-		hp = max_hp
+	if hp+heal > stats.max_hp:
+		hp = stats.max_hp
 	else:
 		hp += heal
 	_update_hp_bar()
@@ -44,13 +41,5 @@ func heal(heal: int):
 func die():
 	queue_free()
 
-@onready var my_timer = $Timer  # Reference to the Timer node
-
-func wait_with_timer(amount: int):
-	print("Starting timer...")
-	my_timer.start(amount) # IN SECONDS, NOT MILISECONDS. DON'T GIVE ABSURD VALUES
-	await my_timer.timeout
-# This is for certain animations, so we don't need to create a new timer everytime
-
 func _update_hp_bar():
-	progress_bar.value = (hp/max_hp) * 100
+	health_bar.value = (hp/stats.max_hp)* 100

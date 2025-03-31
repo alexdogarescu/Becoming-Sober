@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Character_Stats" load_steps=2 format=3 uid="uid://cail7ldpl6e04"]
+
+[ext_resource type="Script" uid="uid://bisk751fqv8re" path="res://stats/character_stats.gd" id="1_s25tq"]
+
+[resource]
+script = ExtResource("1_s25tq")
+speed = 0
+max_hp = 0
+attack = 0
+max_sp = 0
+defence = 0
+skills = []
+metadata/_custom_type_script = "uid://bisk751fqv8re"

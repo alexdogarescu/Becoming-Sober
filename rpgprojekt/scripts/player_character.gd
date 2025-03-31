@@ -1,35 +1,25 @@
 class_name PlayerCharacter extends Character
 #const BattleManager = preload("res://scripts/battle_manager.gd")
-var skills = [
-	{"name": "Stab", "damage": 20, "sp_cost": 5},
-	{"name": "Drink", "damage": -10, "sp_cost": 10} #negative damage is healing
-] 
-#interesting way to basically create your own variable types.
-#the game will interpret each line as its own seperate entity
-#we can add skills by basically using add_skill(Fireball, 35, 10) as an example
-#using the script that I made
+
 
 func attack_target(target: Character):
 	print(name + " attacks " + target.name)
-	self.move_local_x(-5)
-	wait_with_timer(2)
-	target.take_damage(attack)
-	self.move_local_x(5)
+	target.take_damage(stats.attack)
 	#BattleManager.next_turn()
 	
 func get_skills():
-	return skills
+	return stats.skills
 	
 func add_skill(skill_name, skill_damage, skill_sp_cost):
-	skills.append({"name": skill_name, "damage": skill_damage, "sp_cost": skill_sp_cost})
+	stats.skills.append({"name": skill_name, "damage": skill_damage, "sp_cost": skill_sp_cost})
 
 func use_skill(skill, target):
 	# Uses the selected skill on a target 
 	if "mp_cost" in skill and skill.mp_cost > 0:
-		if sp < skill.sp_cost:
+		if stats.sp < skill.sp_cost:
 			print(name + " does not have enough MP!")
 			return
-		sp -= skill.sp_cost  # Reduce MP for skill usage
+		stats.sp -= skill.sp_cost  # Reduce MP for skill usage
 
 	# Apply skill effect
 	if skill.damage >= 0:

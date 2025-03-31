@@ -1,3 +1,4 @@
+Character_Stats
 Enemy_Stats
 Resource
 Item
