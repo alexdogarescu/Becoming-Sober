@@ -1,3 +1,8 @@
+Sprite2D
+Button
+RichTextLabel
+Panel
+Camera2D
 Node2D
 StaticBody2D
 ColorRect
@@ -6,10 +11,4 @@ AnimationPlayer
 CanvasLayer
 CollisionShape2D
 Area2D
-Sprite2D
 Container
-Panel
-CenterContainer
-NinePatchRect
-RichTextLabel
-Control
