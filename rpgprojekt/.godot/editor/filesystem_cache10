@@ -1,6 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1743422283
-::res://art/::1743422255
+::res://::1743436970
+::res://art/::1743444997
+focus.png::CompressedTexture2D::5411982094298290574::1743444997::1743445000::1::::<><><>0<>0<>cfda5c39fb3d764ec9c4b65f63940c8f<>res://.godot/imported/focus.png-c47c7f65f9ffd4fb7ab15acb770fe296.ctex::
 icon.svg::CompressedTexture2D/CompressedTexture2D::1171198257854112684::1742044581::1742486433::1::::<><><>0<>0<>e9d6c755ef3b7b9ff89b569d1bc1f8ec<>res://.godot/imported/icon.svg-2ffe2e9772a318535303737ea3c29287.ctex::
 ::res://art/brutalist_clear/::1743177383
 brutalism_tileset_clear.png::CompressedTexture2D/CompressedTexture2D::3094146123339334305::1743177383::1743177383::1::::<><><>0<>0<>2cf050e79f97f5f5e453fadcb9dece09<>res://.godot/imported/brutalism_tileset_clear.png-29000d0fbc83ec109d122ae44bee6b9c.ctex::
@@ -16,47 +17,54 @@ Priest.png::CompressedTexture2D/CompressedTexture2D::6644954401204011163::174342
 Priest_normal+close_up.png::CompressedTexture2D/CompressedTexture2D::9150833897232407957::1743422255::1743422255::1::::<><><>0<>0<>cf8cb3e01e41d035e9957f054a8f8796<>res://.godot/imported/Priest_normal+close_up.png-28bbd41bb111f07caab455a16a4c014a.ctex::
 ::res://art/items/::1743422255
 beer-bottle-2M7weoA-..._imresizer.jpg::CompressedTexture2D/CompressedTexture2D::7758978333284672193::1743422255::1743422255::1::::<><><>0<>0<>00090638c08e89c611c04f1da18aca88<>res://.godot/imported/beer-bottle-2M7weoA-..._imresizer.jpg-a4ee3c3e2a98e71387f7e67ac3aa74a6.ctex::
-::res://inventory/::1743422255
-inv_ui.tscn::PackedScene::1890402139194218687::1743422255::0::1::::<><><>0<>0<><>::uid://c2rni0rnscmvb::::res://inventory/inventory scripts/inv_ui.gd<>uid://0wooxpkyte1r::::res://inventory/inv_ui_slot.tscn
-inv_ui_slot.tscn::PackedScene::1801013672249821869::1743422255::0::1::::<><><>0<>0<><>::uid://dgcwuu7k8366s::::res://inventory/inventory scripts/inv_ui_slot.gd
-playerinv.tres::Resource/Inventory::3708967572506342761::1743422255::0::1::::<><><>0<>0<><>::uid://dgdohg2mjlcqv::::res://inventory/inventory scripts/inv_slot.gd<>uid://4cnvtfchi5j6::::res://inventory/inventory scripts/inventory.gd
+::res://inventory/::1743436995
+inv_ui.tscn::PackedScene::1890402139194218687::1743425241::0::1::::<><><>0<>0<><>::uid://c2rni0rnscmvb::::res://inventory/inventory scripts/inv_ui.gd<>uid://0wooxpkyte1r::::res://inventory/inv_ui_slot.tscn
+inv_ui_slot.tscn::PackedScene::1801013672249821869::1743425241::0::1::::<><><>0<>0<><>::uid://dgcwuu7k8366s::::res://inventory/inventory scripts/inv_ui_slot.gd
+playerinv.tres::Resource/Inventory::3708967572506342761::1743436995::0::1::::<><><>0<>0<><>::uid://dgdohg2mjlcqv::::res://inventory/inventory scripts/inv_slot.gd<>uid://4cnvtfchi5j6::::res://inventory/inventory scripts/inventory.gd
 ::res://inventory/inventory scripts/::1743422255
-inventory.gd::GDScript::2040433049357275001::1743422255::0::1::::Inventory<>Resource<><>0<>0<><>::
-inv_slot.gd::GDScript::7587451142033248997::1743422255::0::1::::InvSlot<>Resource<><>0<>0<><>::
-inv_ui.gd::GDScript::6703839514649532299::1743422255::0::1::::<>Control<><>0<>0<><>::
-inv_ui_slot.gd::GDScript::7585896458534912092::1743422255::0::1::::<>Control<><>0<>0<><>::
+inventory.gd::GDScript/GDScript::2040433049357275001::1743422255::0::1::::Inventory<>Resource<><>0<>0<><>::
+inv_slot.gd::GDScript/GDScript::7587451142033248997::1743422255::0::1::::InvSlot<>Resource<><>0<>0<><>::
+inv_ui.gd::GDScript/GDScript::6703839514649532299::1743422255::0::1::::<>Control<><>0<>0<><>::
+inv_ui_slot.gd::GDScript/GDScript::7585896458534912092::1743422255::0::1::::<>Control<><>0<>0<><>::
 ::res://Items/::1743422255
 ::res://Items/Item Scripts/::1743422255
-Item.gd::GDScript::114535875476376968::1743422255::0::1::::Item<>Resource<><>0<>0<><>::
-item_node.gd::GDScript::367340736606835373::1743422255::0::1::::ItemCollectible<>Node2D<><>0<>0<><>::
-::res://Items/Item-Scenes-res/::1743422255
+Item.gd::GDScript/GDScript::114535875476376968::1743422255::0::1::::Item<>Resource<><>0<>0<><>::
+item_node.gd::GDScript/GDScript::367340736606835373::1743422255::0::1::::ItemCollectible<>Node2D<><>0<>0<><>::
+::res://Items/Item-Scenes-res/::1743439887
 empty_bottle.tres::Resource/Item::1340921711713881198::1743422255::0::1::::<><><>0<>0<><>::uid://bvqnh3tmt2oi::::res://Items/Item Scripts/Item.gd<>uid://disrie6g8shhx::::res://art/items/beer-bottle-2M7weoA-..._imresizer.jpg
-empty_bottle.tscn::PackedScene::4748536200267899044::1743422255::0::1::::<><><>0<>0<><>::uid://fh7bv16ja1gj::::res://Items/Item Scripts/item_node.gd<>uid://tds1xddhqf7k::::res://Items/Item-Scenes-res/empty_bottle.tres<>uid://disrie6g8shhx::::res://art/items/beer-bottle-2M7weoA-..._imresizer.jpg
+empty_bottle.tscn::PackedScene::4748536200267899044::1743439887::0::1::::<><><>0<>0<><>::uid://fh7bv16ja1gj::::res://Items/Item Scripts/item_node.gd<>uid://tds1xddhqf7k::::res://Items/Item-Scenes-res/empty_bottle.tres<>uid://disrie6g8shhx::::res://art/items/beer-bottle-2M7weoA-..._imresizer.jpg
 ::res://non-used scripts/::1743422261
-moving_enemy_script.gd::GDScript::5662026196205047213::1743422261::0::1::::<>CharacterBody2D<><>0<>0<><>::
-::res://scenes/::1743422261
-battle_scene.tscn::PackedScene::7979287882079701120::1743422261::0::1::::<><><>0<>0<><>::uid://kmq68lg7baf3::::res://scenes/party_manager.tscn<>uid://cy3xk2wawooca::::res://scripts/battle_manager.gd<>uid://chytqmgf84nmi::::res://scenes/player_character.tscn<>uid://b3525a32st7uj::::res://scenes/enemy_character.tscn<>uid://cnktqf4jvpv4e::::res://scripts/battle_scene_camera.gd
-enemy.tscn::PackedScene::3460753175450601731::1743422261::0::1::::<><><>0<>0<><>::uid://d3f1csstov21c::::res://scripts/enemy.gd<>uid://t6iybv70gqoa::::res://art/characters/player_type.png
-enemy_character.tscn::PackedScene::4415332615307761097::1743422261::0::1::::<><><>0<>0<><>::uid://sev2y2q2e88f::::res://scripts/enemy_character.gd
-enemy_group.tscn::PackedScene::6639894311340432376::1743422255::0::1::::<><><>0<>0<><>::uid://bhkeq26esf7y5::::res://scripts/enemy_group.gd<>uid://kowf0qwe0k1b::::res://scenes/enemy_member.tscn
-party_manager.tscn::PackedScene/PackedScene::727689551503174478::1743177383::0::1::::<><><>0<>0<><>::uid://cokq2ukoxlcl8::::res://scripts/party_manager.gd
-player.tscn::PackedScene::5645315117967245320::1743422255::0::1::::<><><>0<>0<><>::uid://bq61px8bbjcmy::::res://scripts/player.gd<>uid://bs3wficc26pu4::::res://inventory/playerinv.tres<>uid://cm57t4rsogct6::::res://art/characters/player_overworld.png<>uid://16yv88kuya3h::::res://inventory/inv_ui.tscn
-player_character.tscn::PackedScene::5314891174336364268::1743422261::0::1::::<><><>0<>0<><>::uid://bfkemdsoihi80::::res://scripts/player_character.gd<>uid://t6iybv70gqoa::::res://art/characters/player_type.png
-scene_changer.tscn::PackedScene::8191113229583477105::1743422255::0::1::::<><><>0<>0<><>::uid://cl47ev3hy0tln::::res://scripts/scene_changer.gd
-world.tscn::PackedScene::7613929004071309473::1743422261::0::1::::<><><>0<>0<><>::uid://bdn233faeacdk::::res://scripts/world.gd<>uid://cmovrrtrcax2w::::res://scenes/player.tscn<>uid://bpkodmwcg5eoh::::res://scenes/enemy.tscn<>uid://b8whxyirwpfts::::res://Items/Item-Scenes-res/empty_bottle.tscn<>uid://dox3o5rh16wgv::::res://scenes/scene_changer.tscn
+moving_enemy_script.gd::GDScript/GDScript::5662026196205047213::1743422261::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://scenes/::1743444885
+battle_scene.tscn::PackedScene::7979287882079701120::1743444725::0::1::::<><><>0<>0<><>::uid://cy3xk2wawooca::::res://scripts/battle_manager.gd<>uid://b2spxotjbgtfe::::res://UI_elements/UI.tres<>uid://drunym38mvp2j::::res://scenes/player_group.tscn<>uid://cnktqf4jvpv4e::::res://scripts/battle_scene_camera.gd<>uid://c1uodbegvm3eq::::res://scenes/enemy_group.tscn
+enemy.tscn::PackedScene::3460753175450601731::1743439887::0::1::::<><><>0<>0<><>::uid://d3f1csstov21c::::res://scripts/enemy.gd<>uid://t6iybv70gqoa::::res://art/characters/player_type.png
+enemy_character.tscn::PackedScene::4415332615307761097::1743444725::0::1::::<><><>0<>0<><>::uid://sev2y2q2e88f::::res://scripts/enemy_character.gd<>uid://bnmomtdu6kpn7::::res://stats/test.tres
+enemy_group.tscn::PackedScene::6639894311340432376::1743444779::0::1::::<><><>0<>0<><>::uid://dnbf8btp5ofwo::::res://scripts/enemy_group.gd<>uid://b3525a32st7uj::::res://scenes/enemy_character.tscn
+party_manager.tscn::PackedScene::727689551503174478::1743444725::0::1::::<><><>0<>0<><>::uid://cokq2ukoxlcl8::::res://scripts/party_manager.gd
+player.tscn::PackedScene::5645315117967245320::1743439887::0::1::::<><><>0<>0<><>::uid://bq61px8bbjcmy::::res://scripts/player.gd<>uid://bs3wficc26pu4::::res://inventory/playerinv.tres<>uid://cm57t4rsogct6::::res://art/characters/player_overworld.png<>uid://16yv88kuya3h::::res://inventory/inv_ui.tscn
+player_character.tscn::PackedScene::5314891174336364268::1743444725::0::1::::<><><>0<>0<><>::uid://bfkemdsoihi80::::res://scripts/player_character.gd<>uid://cail7ldpl6e04::::res://stats/test2.tres<>uid://c1w4os66my81d::::res://art/characters/Priest.png
+player_group.tscn::PackedScene::8394592803017704803::1743444885::0::1::::<><><>0<>0<><>::uid://chytqmgf84nmi::::res://scenes/player_character.tscn<>uid://bo3bt7hepoh7h::::res://scripts/player_group.gd
+scene_changer.tscn::PackedScene/PackedScene::8191113229583477105::1743422255::0::1::::<><><>0<>0<><>::uid://cl47ev3hy0tln::::res://scripts/scene_changer.gd
+world.tscn::PackedScene::7613929004071309473::1743444725::0::1::::<><><>0<>0<><>::uid://bdn233faeacdk::::res://scripts/world.gd<>uid://cmovrrtrcax2w::::res://scenes/player.tscn<>uid://bpkodmwcg5eoh::::res://scenes/enemy.tscn<>uid://b8whxyirwpfts::::res://Items/Item-Scenes-res/empty_bottle.tscn<>uid://dox3o5rh16wgv::::res://scenes/scene_changer.tscn
 ::res://scenes/maybe later scenes/::1743422255
-moving_enemy.tscn::PackedScene::3460753175450601731::1743422255::0::1::::<><><>0<>0<><>::uid://bij58xhypiwtl::::res://non-used scripts/moving_enemy.gd
-::res://scripts/::1743422261
-battle_manager.gd::GDScript::6516591992731447628::1743422261::0::1::::<>Node2D<><>0<>0<><>::
-battle_scene_camera.gd::GDScript/GDScript::5707122615639937498::1743177383::0::1::::<>Camera2D<><>0<>0<><>::
-Character.gd::GDScript::7017352787177867560::1743422261::0::1::::Character<>Node2D<><>0<>0<><>::
-enemy.gd::GDScript::9136454749223867978::1743422261::0::1::::Enemy<>CharacterBody2D<><>0<>0<><>::
-enemy_character.gd::GDScript::1272981272817716987::1743422261::0::1::::EnemyCharacter<>Character<><>0<>0<><>::
+moving_enemy.tscn::PackedScene/PackedScene::3460753175450601731::1743422255::0::1::::<><><>0<>0<><>::uid://bij58xhypiwtl::::res://non-used scripts/moving_enemy.gd
+::res://scripts/::1743444721
+battle_manager.gd::GDScript::6516591992731447628::1743444721::0::1::::<>Node2D<><>0<>0<><>::
+battle_scene_camera.gd::GDScript::5707122615639937498::1743443075::0::1::::<>Camera2D<><>0<>0<><>::
+Character.gd::GDScript::7017352787177867560::1743443974::0::1::::Character<>Node2D<><>0<>0<><>::
+enemy.gd::GDScript::9136454749223867978::1743439865::0::1::::Enemy<>CharacterBody2D<><>0<>0<><>::
+enemy_character.gd::GDScript::1272981272817716987::1743444014::0::1::::EnemyCharacter<>Character<><>0<>0<><>::
 party_manager.gd::GDScript/GDScript::5777149710761262631::1743177383::0::1::::<>Node2D<><>0<>0<><>::
-player.gd::GDScript::3575044580060701040::1743422255::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
-player_character.gd::GDScript::2758273162945387411::1743422261::0::1::::PlayerCharacter<>Character<><>0<>0<><>::
-scene_changer.gd::GDScript::5606736835812439927::1743422255::0::1::::<>CanvasLayer<><>0<>0<><>::
+player.gd::GDScript/GDScript::3575044580060701040::1743422255::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
+player_character.gd::GDScript::2758273162945387411::1743444008::0::1::::PlayerCharacter<>Character<><>0<>0<><>::
+player_group.gd::GDScript::3426963410579369347::1743444657::0::1::::<>Node2D<><>0<>0<><>::
+enemy_group.gd::GDScript::8074143994887290110::1743444670::0::1::::<>Node2D<><>0<>0<><>::
+scene_changer.gd::GDScript/GDScript::5606736835812439927::1743422255::0::1::::<>CanvasLayer<><>0<>0<><>::
 world.gd::GDScript/GDScript::2625514964827180792::1743177383::0::1::::<>Node2D<><>0<>0<><>::
-::res://stats/::1743422255
-character_stats.gd::GDScript::2985756163817899154::1743422255::0::1::::Character_Stats<>Resource<><>0<>0<><>::
-enemy_stats.gd::GDScript::7780448592445728092::1743422255::0::1::::Enemy_Stats<>Resource<><>0<>0<><>::
+::res://stats/::1743443900
+character_stats.gd::GDScript::2985756163817899154::1743443900::0::1::::Character_Stats<>Resource<><>0<>0<><>::
+enemy_stats.gd::GDScript/GDScript::7780448592445728092::1743422255::0::1::::Enemy_Stats<>Resource<><>0<>0<><>::
+test2.tres::Resource/Character_Stats::4790082004832787911::1743442230::0::1::::<><><>0<>0<><>::uid://bisk751fqv8re::::res://stats/character_stats.gd
+test.tres::Resource/Enemy_Stats::3324520654990440342::1743423225::0::1::::<><><>0<>0<><>::uid://di3537oq08to3::::res://stats/enemy_stats.gd<>uid://recstoxs5b38::::res://art/characters/corporatista.png
+::res://UI_elements/::1743442446
+UI.tres::Theme::4319630854733059994::1743442446::0::1::::<><><>0<>0<><>::

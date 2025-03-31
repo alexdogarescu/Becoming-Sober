@@ -1,7 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://chytqmgf84nmi"]
+[gd_scene load_steps=8 format=3 uid="uid://chytqmgf84nmi"]
 
 [ext_resource type="Script" uid="uid://bfkemdsoihi80" path="res://scripts/player_character.gd" id="1_56udc"]
-[ext_resource type="Texture2D" uid="uid://t6iybv70gqoa" path="res://art/characters/player_type.png" id="2_6r27q"]
+[ext_resource type="Resource" uid="uid://cail7ldpl6e04" path="res://stats/test2.tres" id="2_kww55"]
+[ext_resource type="Texture2D" uid="uid://c1w4os66my81d" path="res://art/characters/Priest.png" id="3_kww55"]
+[ext_resource type="Texture2D" uid="uid://cjdus3432pe51" path="res://art/focus.png" id="4_4h0vy"]
 
 [sub_resource type="Animation" id="Animation_kww55"]
 length = 0.001
@@ -41,21 +43,19 @@ _data = {
 
 [node name="player_character" type="Node2D"]
 script = ExtResource("1_56udc")
+stats = ExtResource("2_kww55")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 self_modulate = Color(100, 1, 1, 1)
-texture = ExtResource("2_6r27q")
-
-[node name="Timer" type="Timer" parent="."]
-
-[node name="ProgressBar" type="ProgressBar" parent="."]
-offset_left = -31.0
-offset_top = -48.0
-offset_right = 31.0
-offset_bottom = -21.0
-value = 100.0
+texture = ExtResource("3_kww55")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
 &"": SubResource("AnimationLibrary_4h0vy")
 }
+
+[node name="focus" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(0, -24)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("4_4h0vy")

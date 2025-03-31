@@ -86,24 +86,8 @@ custom_word_separators = "\\n"
 [node name="player_group" parent="." instance=ExtResource("5_1i8jf")]
 position = Vector2(140, -160)
 
-[node name="player_character" parent="player_group" index="0" groups=["combatants", "players"]]
-
-[node name="player_character2" parent="player_group" index="1" groups=["combatants", "players"]]
-
-[node name="player_character3" parent="player_group" index="2" groups=["combatants", "players"]]
-
-[node name="player_character4" parent="player_group" index="3" groups=["combatants", "players"]]
-
 [node name="enemy_group" parent="." instance=ExtResource("6_svpld")]
 position = Vector2(-180, -160)
-
-[node name="enemy_character" parent="enemy_group" index="0" groups=["combatants", "enemies"]]
-
-[node name="enemy_character2" parent="enemy_group" index="1" groups=["combatants", "enemies"]]
-
-[node name="enemy_character3" parent="enemy_group" index="2" groups=["combatants", "enemies"]]
-
-[node name="enemy_character4" parent="enemy_group" index="3" groups=["combatants", "enemies"]]
 
 [connection signal="pressed" from="UI/button_container/attack" to="dungeon_master" method="_on_attack_pressed"]
 [connection signal="pressed" from="UI/button_container/skills" to="dungeon_master" method="_on_skills_pressed"]

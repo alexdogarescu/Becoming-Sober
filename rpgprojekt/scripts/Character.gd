@@ -2,7 +2,6 @@ extends Node2D
 
 class_name Character
 @onready var animation_player = $AnimationPlayer
-@onready var health_bar = $ProgressBar
 @export var stats: Resource
 @export var hp: int
 @export var sp: int
@@ -26,7 +25,6 @@ func take_damage(damage: int):
 	hp -= damage-stats.defence/4
 	animation_player.play("hurt")
 	print(str(damage) + " damage has been taken by " + name)
-	_update_hp_bar()
 	if hp <= 0:
 		die()
 		# Give condition for give in only for player character
@@ -36,10 +34,12 @@ func heal(heal: int):
 		hp = stats.max_hp
 	else:
 		hp += heal
-	_update_hp_bar()
-	
+
 func die():
 	queue_free()
-
-func _update_hp_bar():
-	health_bar.value = (hp/stats.max_hp)* 100
+	
+func focus():
+	$focus.show()
+	
+func unfocus():
+	$focus.hide()

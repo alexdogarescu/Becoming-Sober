@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://drunym38mvp2j"]
+
+[ext_resource type="PackedScene" uid="uid://chytqmgf84nmi" path="res://scenes/player_character.tscn" id="1_1nyu5"]
+[ext_resource type="Script" uid="uid://bo3bt7hepoh7h" path="res://scripts/player_group.gd" id="1_lema4"]
+
+[node name="player_group" type="Node2D"]
+script = ExtResource("1_lema4")
+
+[node name="player_character" parent="." instance=ExtResource("1_1nyu5")]
+
+[node name="player_character2" parent="." instance=ExtResource("1_1nyu5")]
+
+[node name="player_character3" parent="." instance=ExtResource("1_1nyu5")]
+
+[node name="player_character4" parent="." instance=ExtResource("1_1nyu5")]
+
+[editable path="player_character"]
+[editable path="player_character2"]
+[editable path="player_character3"]
+[editable path="player_character4"]

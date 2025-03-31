@@ -9,3 +9,6 @@ class_name Character_Stats
 @export var max_sp: int
 @export var defence: int
 @export var skills: Array
+
+func get_skills():
+	return skills

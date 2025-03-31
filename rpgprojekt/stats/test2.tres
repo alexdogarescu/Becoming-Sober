@@ -4,10 +4,10 @@
 
 [resource]
 script = ExtResource("1_s25tq")
-speed = 0
-max_hp = 0
-attack = 0
-max_sp = 0
+speed = 100
+max_hp = 100
+attack = 10
+max_sp = 20
 defence = 0
 skills = []
 metadata/_custom_type_script = "uid://bisk751fqv8re"
