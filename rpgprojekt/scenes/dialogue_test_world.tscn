@@ -1,11 +1,45 @@
-[gd_scene load_steps=2 format=3 uid="uid://bv4ys37g3wex7"]
+[gd_scene load_steps=9 format=3 uid="uid://bv4ys37g3wex7"]
 
+[ext_resource type="Script" uid="uid://dgglga1pv65jv" path="res://dialogue/scripts/dialogue_test_world.gd" id="1_1dwfi"]
 [ext_resource type="PackedScene" uid="uid://cmovrrtrcax2w" path="res://scenes/player.tscn" id="1_1pm10"]
+[ext_resource type="PackedScene" uid="uid://btnv0sixppi4e" path="res://dialogue/CUSTOM DIALOGUE/dialog_area.tscn" id="3_tg1u4"]
+[ext_resource type="Script" uid="uid://bepucgb4ycj41" path="res://dialogue/scripts/dialog_line.gd" id="4_4kioy"]
+[ext_resource type="PackedScene" uid="uid://b3gsgix2uji0w" path="res://dialogue/UI/dialog_player.tscn" id="5_xsivd"]
 
-[node name="Node2D" type="Node2D"]
+[sub_resource type="Resource" id="Resource_uajsu"]
+script = ExtResource("4_4kioy")
+text = "salut"
+speaker_name = ""
+expression_name = ""
+metadata/_custom_type_script = "uid://bepucgb4ycj41"
+
+[sub_resource type="Resource" id="Resource_prke2"]
+script = ExtResource("4_4kioy")
+text = "cf"
+speaker_name = ""
+expression_name = ""
+metadata/_custom_type_script = "uid://bepucgb4ycj41"
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_06ejr"]
+radius = 23.0217
+
+[node name="dialogue_test" type="Node2D"]
+script = ExtResource("1_1dwfi")
 
 [node name="Player" parent="." instance=ExtResource("1_1pm10")]
 
 [node name="Camera2D" type="Camera2D" parent="."]
 offset = Vector2(49.1, 0)
-zoom = Vector2(2.415, 2.415)
+zoom = Vector2(3.705, 3.705)
+
+[node name="test_zone" parent="." instance=ExtResource("3_tg1u4")]
+dialog_lines = Array[ExtResource("4_4kioy")]([SubResource("Resource_uajsu"), SubResource("Resource_prke2")])
+
+[node name="CollisionShape2D" parent="test_zone" index="0"]
+position = Vector2(75, 0)
+shape = SubResource("CircleShape2D_06ejr")
+
+[node name="DialogPlayer" parent="." instance=ExtResource("5_xsivd")]
+visible = false
+
+[editable path="test_zone"]

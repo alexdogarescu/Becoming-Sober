@@ -1,7 +1,15 @@
+res://dialogue/CHARACTER_PORTRAITS
+res://dialogue/scripts
+res://dialogue/UI
+res://scripts/singletons
+res://dialogue/CUSTOM DIALOGUE
+res://dialogue/styles
 res://dialogue
+res://art/characters
+res://dialogue/characters
+res://dialogue/timelines
 res://scenes
 res://Items
-res://art/characters
 res://inventory/inventory scripts
 res://scripts
 res://stats

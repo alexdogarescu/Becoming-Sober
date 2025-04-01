@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://b77vruai1w3tq"]
+
+[ext_resource type="Texture2D" uid="uid://cmw7m5fggmyay" path="res://art/characters/Lili.png" id="1_u2cul"]
+[ext_resource type="Texture2D" uid="uid://t6iybv70gqoa" path="res://art/characters/player_type.png" id="2_ar4ud"]
+
+[node name="Portraits" type="CanvasLayer"]
+
+[node name="Lili" type="CanvasLayer" parent="."]
+
+[node name="normal" type="Sprite2D" parent="Lili"]
+texture = ExtResource("1_u2cul")
+
+[node name="angry" type="Sprite2D" parent="Lili"]
+position = Vector2(82, -36)
+scale = Vector2(2, 2.23438)
+texture = ExtResource("2_ar4ud")
