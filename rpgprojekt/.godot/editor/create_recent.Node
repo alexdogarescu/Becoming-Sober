@@ -1,14 +1,22 @@
+<<<<<<< HEAD
 Camera2D
 CanvasLayer
+=======
+>>>>>>> parent of 2e86ec6 (put down the basics)
 Sprite2D
-VBoxContainer
-RichTextLabel
-TextureRect
-CollisionShape2D
-Area2D
-Panel
 Button
+<<<<<<< HEAD
+=======
+RichTextLabel
+Panel
+Camera2D
+>>>>>>> parent of 2e86ec6 (put down the basics)
 Node2D
 StaticBody2D
 ColorRect
 Label
+AnimationPlayer
+CanvasLayer
+CollisionShape2D
+Area2D
+Container

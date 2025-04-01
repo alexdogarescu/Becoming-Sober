@@ -367,7 +367,7 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_qhqgy"]
-radius = 21.0
+radius = 24.0208
 
 [node name="Player" type="CharacterBody2D"]
 collision_layer = 3
@@ -394,10 +394,9 @@ offset_top = -67.0
 offset_right = 41.0
 offset_bottom = -27.0
 
-[node name="interaction_area" type="Area2D" parent="."]
-collision_layer = 5
+[node name="pickup_area" type="Area2D" parent="."]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="interaction_area"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="pickup_area"]
 shape = SubResource("CircleShape2D_qhqgy")
 
-[connection signal="body_entered" from="interaction_area" to="." method="_on_pickup_area_body_entered"]
+[connection signal="body_entered" from="pickup_area" to="." method="_on_pickup_area_body_entered"]
