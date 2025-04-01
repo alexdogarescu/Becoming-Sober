@@ -10,6 +10,7 @@
 offset = Vector2(49.1, 0)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 zoom = Vector2(3.705, 3.705)
 
 [node name="test_zone" parent="." instance=ExtResource("3_tg1u4")]
@@ -22,6 +23,9 @@ shape = SubResource("CircleShape2D_06ejr")
 [node name="DialogPlayer" parent="." instance=ExtResource("5_xsivd")]
 
 [editable path="test_zone"]
+=======
+zoom = Vector2(2.415, 2.415)
+>>>>>>> parent of 2e86ec6 (put down the basics)
 =======
 zoom = Vector2(2.415, 2.415)
 >>>>>>> parent of 2e86ec6 (put down the basics)

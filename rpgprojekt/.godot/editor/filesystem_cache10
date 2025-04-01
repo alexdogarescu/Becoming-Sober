@@ -1,6 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ::res://::1743539124
 ::res://addons/::1743437981
 ::res://addons/dialogic/::1743437986
@@ -615,6 +616,9 @@ TimelineResourceSaver.gd::GDScript/GDScript::74785183290927743::1743437750::0::1
 =======
 ::res://::1743419131
 >>>>>>> parent of 2e86ec6 (put down the basics)
+=======
+::res://::1743419131
+>>>>>>> parent of 2e86ec6 (put down the basics)
 ::res://art/::1743178014
 icon.svg::CompressedTexture2D/CompressedTexture2D::1171198257854112684::1742131521::1742579073::1::::<><><>0<>0<>e9d6c755ef3b7b9ff89b569d1bc1f8ec<>res://.godot/imported/icon.svg-2ffe2e9772a318535303737ea3c29287.ctex::
 ::res://art/brutalist_clear/::1743178220
@@ -632,6 +636,7 @@ Priest.png::CompressedTexture2D/CompressedTexture2D::6644954401204011163::174317
 Priest_normal+close_up.png::CompressedTexture2D/CompressedTexture2D::9150833897232407957::1743359039::1743359085::1::::<><><>0<>0<>cf8cb3e01e41d035e9957f054a8f8796<>res://.godot/imported/Priest_normal+close_up.png-28bbd41bb111f07caab455a16a4c014a.ctex::
 ::res://art/items/::1743178014
 beer-bottle-2M7weoA-..._imresizer.jpg::CompressedTexture2D/CompressedTexture2D::7758978333284672193::1743178014::1743178014::1::::<><><>0<>0<>00090638c08e89c611c04f1da18aca88<>res://.godot/imported/beer-bottle-2M7weoA-..._imresizer.jpg-a4ee3c3e2a98e71387f7e67ac3aa74a6.ctex::
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 ::res://dialogue/::1743539020
@@ -671,11 +676,16 @@ playerinv.tres::Resource/Inventory::3708967572506342761::1743537875::0::1::::<><
 =======
 =======
 >>>>>>> parent of 2e86ec6 (put down the basics)
+=======
+>>>>>>> parent of 2e86ec6 (put down the basics)
 ::res://inventory/::1743414581
 inv_ui.tscn::PackedScene::1890402139194218687::1743414580::0::1::::<><><>0<>0<><>::uid://c2rni0rnscmvb::::res://inventory/inventory scripts/inv_ui.gd<>uid://0wooxpkyte1r::::res://inventory/inv_ui_slot.tscn
 inv_ui_slot.tscn::PackedScene::1801013672249821869::1743414581::0::1::::<><><>0<>0<><>::uid://dgcwuu7k8366s::::res://inventory/inventory scripts/inv_ui_slot.gd
 playerinv.tres::Resource/Inventory::3708967572506342761::1743414535::0::1::::<><><>0<>0<><>::uid://dgdohg2mjlcqv::::res://inventory/inventory scripts/inv_slot.gd<>uid://4cnvtfchi5j6::::res://inventory/inventory scripts/inventory.gd
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 2e86ec6 (put down the basics)
+=======
 >>>>>>> parent of 2e86ec6 (put down the basics)
 =======
 >>>>>>> parent of 2e86ec6 (put down the basics)
@@ -694,6 +704,7 @@ item_node.gd::GDScript/GDScript::367340736606835373::1743273116::0::1::::ItemCol
 empty_bottle.tres::Resource/Item::1340921711713881198::1743266197::0::1::::<><><>0<>0<><>::uid://bvqnh3tmt2oi::::res://Items/Item Scripts/Item.gd<>uid://disrie6g8shhx::::res://art/items/beer-bottle-2M7weoA-..._imresizer.jpg
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 empty_bottle.tscn::PackedScene/PackedScene::4748536200267899044::1743426690::0::1::::<><><>0<>0<><>::uid://fh7bv16ja1gj::::res://Items/Item Scripts/item_node.gd<>uid://tds1xddhqf7k::::res://Items/Item-Scenes-res/empty_bottle.tres<>uid://disrie6g8shhx::::res://art/items/beer-bottle-2M7weoA-..._imresizer.jpg
 ::res://non-used scripts/::1743437921
 moving_enemy.gd::GDScript/GDScript::2968392493527273561::1743437921::0::1::::<>CharacterBody2D<><>0<>0<><>::
@@ -705,6 +716,19 @@ enemy_group.tscn::PackedScene/PackedScene::6639894311340432376::1743178184::0::1
 party_manager.tscn::PackedScene/PackedScene::727689551503174478::1743177916::0::1::::<><><>0<>0<><>::uid://cokq2ukoxlcl8::::res://scripts/party_manager.gd
 player.tscn::PackedScene::5645315117967245320::1743538875::0::1::::<><><>0<>0<><>::uid://bq61px8bbjcmy::::res://scripts/player.gd<>uid://bs3wficc26pu4::::res://inventory/playerinv.tres<>uid://cm57t4rsogct6::::res://art/characters/player_overworld.png<>uid://16yv88kuya3h::::res://inventory/inv_ui.tscn
 player_character.tscn::PackedScene/PackedScene::5314891174336364268::1743437921::0::1::::<><><>0<>0<><>::uid://bfkemdsoihi80::::res://scripts/player_character.gd<>uid://t6iybv70gqoa::::res://art/characters/player_type.png
+=======
+empty_bottle.tscn::PackedScene::4748536200267899044::1743414581::0::1::::<><><>0<>0<><>::uid://fh7bv16ja1gj::::res://Items/Item Scripts/item_node.gd<>uid://tds1xddhqf7k::::res://Items/Item-Scenes-res/empty_bottle.tres<>uid://disrie6g8shhx::::res://art/items/beer-bottle-2M7weoA-..._imresizer.jpg
+::res://non-used scripts/::1743268614
+moving_enemy.gd::GDScript/GDScript::2968392493527273561::1743178398::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://scenes/::1743414594
+battle_scene.tscn::PackedScene::7979287882079701120::1743414581::0::1::::<><><>0<>0<><>::uid://kmq68lg7baf3::::res://scenes/party_manager.tscn<>uid://cy3xk2wawooca::::res://scripts/battle_manager.gd<>uid://chytqmgf84nmi::::res://scenes/player_character.tscn<>uid://bpkodmwcg5eoh::::res://scenes/enemy.tscn<>uid://cnktqf4jvpv4e::::res://scripts/battle_scene_camera.gd
+dialogue_test_world.tscn::PackedScene::3921744227474643310::1743414594::0::1::::<><><>0<>0<><>::uid://cmovrrtrcax2w::::res://scenes/player.tscn
+enemy.tscn::PackedScene::3460753175450601731::1743414580::0::1::::<><><>0<>0<><>::uid://bij58xhypiwtl::::res://non-used scripts/moving_enemy.gd<>uid://t6iybv70gqoa::::res://art/characters/player_type.png
+enemy_group.tscn::PackedScene/PackedScene::6639894311340432376::1743178184::0::1::::<><><>0<>0<><>::uid://bhkeq26esf7y5::::res://scripts/enemy_group.gd<>uid://kowf0qwe0k1b::::res://scenes/enemy_member.tscn
+party_manager.tscn::PackedScene/PackedScene::727689551503174478::1743177916::0::1::::<><><>0<>0<><>::uid://cokq2ukoxlcl8::::res://scripts/party_manager.gd
+player.tscn::PackedScene::5645315117967245320::1743414580::0::1::::<><><>0<>0<><>::uid://bq61px8bbjcmy::::res://scripts/player.gd<>uid://bs3wficc26pu4::::res://inventory/playerinv.tres<>uid://cm57t4rsogct6::::res://art/characters/player_overworld.png<>uid://16yv88kuya3h::::res://inventory/inv_ui.tscn
+player_character.tscn::PackedScene/PackedScene::5314891174336364268::1743177916::0::1::::<><><>0<>0<><>::uid://bfkemdsoihi80::::res://scripts/player_character.gd<>uid://t6iybv70gqoa::::res://art/characters/player_type.png
+>>>>>>> parent of 2e86ec6 (put down the basics)
 =======
 empty_bottle.tscn::PackedScene::4748536200267899044::1743414581::0::1::::<><><>0<>0<><>::uid://fh7bv16ja1gj::::res://Items/Item Scripts/item_node.gd<>uid://tds1xddhqf7k::::res://Items/Item-Scenes-res/empty_bottle.tres<>uid://disrie6g8shhx::::res://art/items/beer-bottle-2M7weoA-..._imresizer.jpg
 ::res://non-used scripts/::1743268614
@@ -747,9 +771,13 @@ scene_changer.gd::GDScript/GDScript::5606736835812439927::1743178014::0::1::::<>
 world.gd::GDScript/GDScript::2625514964827180792::1742646530::0::1::::<>Node2D<><>0<>0<><>::
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ::res://scripts/singletons/::1743521228
 SignalBus.gd::GDScript/GDScript::5688010477669107128::1743521228::0::1::::<>Node<><>0<>0<><>::
 ::res://stats/::1743437921
+=======
+::res://stats/::1743269142
+>>>>>>> parent of 2e86ec6 (put down the basics)
 =======
 ::res://stats/::1743269142
 >>>>>>> parent of 2e86ec6 (put down the basics)

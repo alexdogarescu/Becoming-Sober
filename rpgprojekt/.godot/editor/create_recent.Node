@@ -1,10 +1,16 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 2e86ec6 (put down the basics)
 Sprite2D
 Button
 RichTextLabel
 Panel
+<<<<<<< HEAD
+>>>>>>> parent of 2e86ec6 (put down the basics)
+=======
 >>>>>>> parent of 2e86ec6 (put down the basics)
 Camera2D
 CanvasLayer
