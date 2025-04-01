@@ -16,6 +16,7 @@ config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://art/icon.svg"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [autoload]
 
 Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
@@ -54,6 +55,8 @@ save/encryption_on_exports_only=true
 text/autopauses={}
 variables={}
 
+=======
+>>>>>>> parent of 2e86ec6 (put down the basics)
 =======
 >>>>>>> parent of 2e86ec6 (put down the basics)
 [dotnet]
