@@ -23,10 +23,10 @@ SignalBus="*res://scripts/singletons/SignalBus.gd"
 [dialogic]
 
 directories/dch_directory={
-"testLili": "res://dialogue/characters/testLili.dch"
+"testLili": "res://dialogue/DIALOGIC/testLili.dch"
 }
 directories/dtl_directory={
-"timelinetest": "res://dialogue/timelines/timelinetest.dtl"
+"timelinetest": "res://dialogue/DIALOGIC/timelinetest.dtl"
 }
 layout/style_list=[]
 layout/default_style=""

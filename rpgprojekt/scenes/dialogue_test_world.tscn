@@ -40,6 +40,5 @@ position = Vector2(75, 0)
 shape = SubResource("CircleShape2D_06ejr")
 
 [node name="DialogPlayer" parent="." instance=ExtResource("5_xsivd")]
-visible = false
 
 [editable path="test_zone"]

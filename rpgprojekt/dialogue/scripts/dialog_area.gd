@@ -6,7 +6,8 @@ var area_active = false
 
 func _input(event):
 	if area_active and event.is_action_pressed("e"):
-		SignalBus.emit_signal("display_dialog", dialog_key)
+		Dialogic.start("timelinetest")
+		#SignalBus.emit_signal("display_dialog", dialog_lines)
 
 func _on_area_entered(area: Area2D) -> void:
 	area_active = true

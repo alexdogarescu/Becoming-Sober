@@ -1,12 +1,12 @@
 extends CanvasLayer
 @onready var text_bg = $Background
 @onready var text_label =$Background/RichTextLabel
-@onready var speaker_name = $Background2/RichTextLabel
+@onready var speaker_name = $Background2
 @onready var speaker = $Sprite2D
 
-
+var i = 0;
 var scene_text
-var selected_text = []
+var selected_text: Array[String]
 var in_progress = false
 
 
@@ -29,8 +29,8 @@ func finish():
 	get_tree().paused = false
 
 func show_text():
-	text_label.text = selected_text.pop_front()
-
+	#text_label.text = selected_text.pop_front()
+	print("this is show text function")
 func on_display_dialog(lines: Array[DialogLine]):
 	if in_progress:
 		next_line()
@@ -38,9 +38,10 @@ func on_display_dialog(lines: Array[DialogLine]):
 		get_tree().paused = true
 		self.visible = true
 		in_progress = true
-		print("dialog")
-		#selected_text = scene_text[]
-		#show_text
+		for line in lines:
+			print("oi")
+			i +=i
+		show_text()
 
 
 #for line in dialog_lines:
