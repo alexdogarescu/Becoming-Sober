@@ -1,13 +1,13 @@
+res://dialogue/UI
+res://dialogue/DIALOGIC/Styles
+res://dialogue/DIALOGIC
 res://dialogue/CHARACTER_PORTRAITS
 res://dialogue/scripts
-res://dialogue/UI
 res://scripts/singletons
 res://dialogue/CUSTOM DIALOGUE
-res://dialogue/styles
 res://dialogue
 res://art/characters
 res://dialogue/characters
-res://dialogue/timelines
 res://scenes
 res://Items
 res://inventory/inventory scripts

@@ -1,9 +1,10 @@
-[gd_scene load_steps=9 format=3 uid="uid://bv4ys37g3wex7"]
+[gd_scene load_steps=10 format=3 uid="uid://bv4ys37g3wex7"]
 
 [ext_resource type="Script" uid="uid://dgglga1pv65jv" path="res://dialogue/scripts/dialogue_test_world.gd" id="1_1dwfi"]
 [ext_resource type="PackedScene" uid="uid://cmovrrtrcax2w" path="res://scenes/player.tscn" id="1_1pm10"]
 [ext_resource type="PackedScene" uid="uid://btnv0sixppi4e" path="res://dialogue/CUSTOM DIALOGUE/dialog_area.tscn" id="3_tg1u4"]
 [ext_resource type="Script" uid="uid://bepucgb4ycj41" path="res://dialogue/scripts/dialog_line.gd" id="4_4kioy"]
+[ext_resource type="Texture2D" uid="uid://cmw7m5fggmyay" path="res://art/characters/Lili.png" id="5_uajsu"]
 [ext_resource type="PackedScene" uid="uid://b3gsgix2uji0w" path="res://dialogue/UI/dialog_player.tscn" id="5_xsivd"]
 
 [sub_resource type="Resource" id="Resource_uajsu"]
@@ -39,7 +40,10 @@ dialog_lines = Array[ExtResource("4_4kioy")]([SubResource("Resource_uajsu"), Sub
 position = Vector2(75, 0)
 shape = SubResource("CircleShape2D_06ejr")
 
+[node name="Sprite2D" type="Sprite2D" parent="test_zone/CollisionShape2D" index="0"]
+position = Vector2(49, 49)
+texture = ExtResource("5_uajsu")
+
 [node name="DialogPlayer" parent="." instance=ExtResource("5_xsivd")]
-visible = false
 
 [editable path="test_zone"]

@@ -16,6 +16,7 @@ texture = ExtResource("1_hkmba")
 expand_mode = 2
 
 [node name="RichTextLabel" type="RichTextLabel" parent="Background"]
+layout_mode = 0
 offset_left = -13.0
 offset_top = 17.0
 offset_right = 207.0

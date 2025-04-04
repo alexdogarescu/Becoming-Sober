@@ -26,10 +26,10 @@ directories/dch_directory={
 "testLili": "res://dialogue/characters/testLili.dch"
 }
 directories/dtl_directory={
-"timelinetest": "res://dialogue/timelines/timelinetest.dtl"
+"timelinetest": "res://dialogue/DIALOGIC/timelines/timelinetest.dtl"
 }
-layout/style_list=[]
-layout/default_style=""
+layout/style_list=["res://dialogue/DIALOGIC/Styles/styletest.tres"]
+layout/default_style="res://dialogue/DIALOGIC/Styles/styletest.tres"
 glossary/default_case_sensitive=true
 extensions_folder="res://addons/dialogic_additions"
 text/letter_speed=0.01

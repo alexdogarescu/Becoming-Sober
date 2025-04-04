@@ -1,4 +1,5 @@
 CanvasLayer
+DialogicLayoutLayer
 Sprite2D
 VBoxContainer
 RichTextLabel
@@ -11,4 +12,3 @@ Camera2D
 Node2D
 StaticBody2D
 ColorRect
-Label

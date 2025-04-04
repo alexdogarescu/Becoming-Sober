@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="DialogicStyle" load_steps=8 format=3 uid="uid://b7xdsgdlwfcq3"]
+
+[ext_resource type="Script" uid="uid://diwcvt1ys2yqu" path="res://addons/dialogic/Resources/dialogic_style_layer.gd" id="1_s14fe"]
+[ext_resource type="PackedScene" uid="uid://bquja8jyk8kbr" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_layer.tscn" id="2_5uub3"]
+[ext_resource type="Script" uid="uid://r0rm6ekkeeca" path="res://addons/dialogic/Resources/dialogic_style.gd" id="2_7cgpq"]
+[ext_resource type="PackedScene" uid="uid://b3gsgix2uji0w" path="res://dialogue/UI/dialog_player.tscn" id="3_5uub3"]
+
+[sub_resource type="Resource" id="Resource_5uub3"]
+script = ExtResource("1_s14fe")
+overrides = {}
+
+[sub_resource type="Resource" id="Resource_7cgpq"]
+script = ExtResource("1_s14fe")
+scene = ExtResource("2_5uub3")
+overrides = {
+"box_color_custom": "Color(0, 0, 0, 0)",
+"box_color_use_global": "false",
+"name_label_box_modulate": "Color(0, 0, 0, 0)",
+"name_label_box_use_global_color": "false",
+"next_indicator_enabled": "false"
+}
+
+[sub_resource type="Resource" id="Resource_pg2t7"]
+script = ExtResource("1_s14fe")
+scene = ExtResource("3_5uub3")
+overrides = {}
+
+[resource]
+script = ExtResource("2_7cgpq")
+name = "styletest"
+layer_list = Array[String](["10", "11"])
+layer_info = {
+"": SubResource("Resource_5uub3"),
+"10": SubResource("Resource_7cgpq"),
+"11": SubResource("Resource_pg2t7")
+}
+base_overrides = {}
+layers = Array[ExtResource("1_s14fe")]([])
+metadata/_latest_layer = "10"
