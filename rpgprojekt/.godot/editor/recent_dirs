@@ -1,3 +1,5 @@
+res://dialogue
+res://art/characters
 res://
 res://dialogue/UI
 res://dialogue/DIALOGIC/Styles
@@ -6,8 +8,6 @@ res://dialogue/CHARACTER_PORTRAITS
 res://dialogue/scripts
 res://scripts/singletons
 res://dialogue/CUSTOM DIALOGUE
-res://dialogue
-res://art/characters
 res://dialogue/characters
 res://scenes
 res://Items

@@ -41,6 +41,7 @@ position = Vector2(75, 0)
 shape = SubResource("CircleShape2D_06ejr")
 
 [node name="Sprite2D" type="Sprite2D" parent="test_zone/CollisionShape2D" index="0"]
+show_behind_parent = true
 position = Vector2(49, 49)
 texture = ExtResource("5_uajsu")
 

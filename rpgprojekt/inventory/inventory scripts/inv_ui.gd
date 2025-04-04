@@ -21,10 +21,12 @@ func _input(event):
 func close():
 	visible = false
 	is_open = false
+	get_tree().paused = false
 	
 func open():
 	is_open = true
 	visible = true
+	get_tree().paused = true
 
 func update_slots():
 	for i in range(min(inv.slots.size(), slots.size())):

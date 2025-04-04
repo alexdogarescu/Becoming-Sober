@@ -388,6 +388,7 @@ offset = Vector2(0, -9)
 texture = ExtResource("3_dqkch")
 
 [node name="Inv_UI" parent="." instance=ExtResource("3_qhqgy")]
+process_mode = 3
 visible = false
 offset_left = -21.0
 offset_top = -67.0

@@ -1,17 +1,49 @@
-[gd_scene load_steps=7 format=3 uid="uid://k7m0wxvlxs53"]
+[gd_scene load_steps=10 format=3 uid="uid://k7m0wxvlxs53"]
 
-[ext_resource type="Script" uid="uid://cx3fv365n31vm" path="res://addons/dialogic/Resources/dialogic_layout_layer.gd" id="1_x8j8t"]
 [ext_resource type="Texture2D" uid="uid://qxlp1uvl5aky" path="res://art/icon.svg" id="2_2nbgr"]
 [ext_resource type="Texture2D" uid="uid://d3my5rk2sdl30" path="res://art/characters/Priest_normal+close_up.png" id="3_u07d6"]
 [ext_resource type="Script" uid="uid://cigs750n5ylad" path="res://addons/dialogic/Modules/Text/node_dialog_text.gd" id="4_nqqko"]
+[ext_resource type="AudioStream" uid="uid://b6c1p14bc20p1" path="res://addons/dialogic/Example Assets/sound-effects/typing1.wav" id="5_0txkf"]
 [ext_resource type="Script" uid="uid://dce2ax51goxiv" path="res://addons/dialogic/Modules/Text/node_name_label.gd" id="5_ebdmr"]
 [ext_resource type="Script" uid="uid://du5vlbn8g0yvr" path="res://addons/dialogic/Modules/Text/node_type_sound.gd" id="5_iw63c"]
+[ext_resource type="Script" uid="uid://wsesc7fr1a3d" path="res://addons/dialogic/Modules/Character/dialogic_portrait.gd" id="6_iw63c"]
+[ext_resource type="Script" uid="uid://btv8igp6lc7qx" path="res://addons/dialogic/Modules/Character/node_portrait_container.gd" id="7_iw63c"]
+
+[sub_resource type="GDScript" id="GDScript_0txkf"]
+script/source = "@tool
+extends DialogicLayoutLayer
+
+## Base class that should be extended by custom dialogic layout layers.
+func _ready() -> void:
+	if apply_overrides_on_ready and not Engine.is_editor_hint():
+		_apply_export_overrides()
+
+## Override this and load all your exported settings (apply them to the scene)
+func _apply_export_overrides() -> void:
+	pass
+
+func apply_export_overrides() -> void:
+	if disabled:
+		if \"visible\" in self:
+			set('visible', false)
+		process_mode = Node.PROCESS_MODE_DISABLED
+	else:
+		if \"visible\" in self:
+			set('visible', true)
+		process_mode = Node.PROCESS_MODE_INHERIT
+	_apply_export_overrides()
+
+
+## Use this to get potential global settings.
+func get_global_setting(setting_name:StringName, default:Variant) -> Variant:
+	return get_parent().get_global_setting(setting_name, default)
+"
 
 [node name="main" type="Node"]
-script = ExtResource("1_x8j8t")
+script = SubResource("GDScript_0txkf")
 metadata/_custom_type_script = "uid://cx3fv365n31vm"
 
-[node name="Background" type="TextureRect" parent="."]
+[node name="textbox" type="TextureRect" parent="."]
 offset_left = 425.0
 offset_top = 441.0
 offset_right = 903.0
@@ -19,19 +51,28 @@ offset_bottom = 646.0
 texture = ExtResource("2_2nbgr")
 expand_mode = 2
 
+[node name="DialogicNode_DialogText" type="RichTextLabel" parent="textbox"]
+layout_mode = 1
+anchors_preset = -1
+offset_left = 27.0
+offset_top = 23.0
+offset_right = 455.0
+offset_bottom = 179.0
+script = ExtResource("4_nqqko")
+metadata/_custom_type_script = "uid://cigs750n5ylad"
+
+[node name="DialogicNode_TypeSounds" type="AudioStreamPlayer" parent="textbox/DialogicNode_DialogText"]
+script = ExtResource("5_iw63c")
+sounds = Array[AudioStream]([ExtResource("5_0txkf")])
+metadata/_custom_type_script = "uid://du5vlbn8g0yvr"
+
 [node name="Sprite2D" type="Sprite2D" parent="."]
 visible = false
 position = Vector2(264, 586)
 scale = Vector2(3.36979, 3.41146)
 texture = ExtResource("3_u07d6")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
-visible = false
-offset_top = -3.0
-offset_right = 230.0
-offset_bottom = 86.0
-
-[node name="Background2" type="TextureRect" parent="."]
+[node name="namebox" type="TextureRect" parent="."]
 offset_left = 453.0
 offset_top = 370.0
 offset_right = 618.0
@@ -39,22 +80,39 @@ offset_bottom = 439.0
 texture = ExtResource("2_2nbgr")
 expand_mode = 1
 
-[node name="DialogicNode_DialogText" type="RichTextLabel" parent="."]
-offset_left = 460.0
-offset_top = 462.0
-offset_right = 873.0
-offset_bottom = 627.0
-script = ExtResource("4_nqqko")
-metadata/_custom_type_script = "uid://cigs750n5ylad"
-
-[node name="DialogicNode_TypeSounds" type="AudioStreamPlayer" parent="DialogicNode_DialogText"]
-script = ExtResource("5_iw63c")
-metadata/_custom_type_script = "uid://du5vlbn8g0yvr"
-
 [node name="DialogicNode_NameLabel" type="Label" parent="."]
 offset_left = 466.0
 offset_top = 379.0
-offset_right = 600.0
+offset_right = 608.0
 offset_bottom = 431.0
+horizontal_alignment = 1
 script = ExtResource("5_ebdmr")
 metadata/_custom_type_script = "uid://dce2ax51goxiv"
+
+[node name="DialogicPortrait" type="Node" parent="."]
+script = ExtResource("6_iw63c")
+metadata/_custom_type_script = "uid://wsesc7fr1a3d"
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 55.0
+offset_top = 434.0
+offset_right = 422.0
+offset_bottom = 742.0
+
+[node name="DialogicNode_PortraitContainer" type="Control" parent="Control"]
+layout_mode = 1
+anchor_left = 0.399
+anchor_top = 0.418
+anchor_right = 0.399
+anchor_bottom = 0.418
+offset_left = -98.433
+offset_top = 46.256
+offset_right = 267.567
+offset_bottom = 357.256
+script = ExtResource("7_iw63c")
+mode = 1
+container_ids = PackedStringArray("1")
+pivot_value = Vector2(0, -22.925)
+metadata/_custom_type_script = "uid://btv8igp6lc7qx"

@@ -28,7 +28,7 @@ directories/dch_directory={
 directories/dtl_directory={
 "timelinetest": "res://dialogue/DIALOGIC/timelines/timelinetest.dtl"
 }
-layout/style_list=["res://dialogue/DIALOGIC/Styles/styletest.tres", "res://New_File.tres"]
+layout/style_list=["res://dialogue/DIALOGIC/Styles/styletest.tres"]
 layout/default_style="res://dialogue/DIALOGIC/Styles/styletest.tres"
 glossary/default_case_sensitive=true
 extensions_folder="res://addons/dialogic_additions"
