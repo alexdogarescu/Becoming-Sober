@@ -45,5 +45,6 @@ position = Vector2(49, 49)
 texture = ExtResource("5_uajsu")
 
 [node name="DialogPlayer" parent="." instance=ExtResource("5_xsivd")]
+visible = false
 
 [editable path="test_zone"]

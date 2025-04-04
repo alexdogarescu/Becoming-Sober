@@ -1,0 +1,36 @@
+[gd_scene load_steps=4 format=3 uid="uid://k7m0wxvlxs53"]
+
+[ext_resource type="Script" uid="uid://cx3fv365n31vm" path="res://addons/dialogic/Resources/dialogic_layout_layer.gd" id="1_x8j8t"]
+[ext_resource type="Texture2D" uid="uid://qxlp1uvl5aky" path="res://art/icon.svg" id="2_2nbgr"]
+[ext_resource type="Texture2D" uid="uid://d3my5rk2sdl30" path="res://art/characters/Priest_normal+close_up.png" id="3_u07d6"]
+
+[node name="main" type="Node"]
+script = ExtResource("1_x8j8t")
+metadata/_custom_type_script = "uid://cx3fv365n31vm"
+
+[node name="Background" type="TextureRect" parent="."]
+offset_left = 425.0
+offset_top = 441.0
+offset_right = 903.0
+offset_bottom = 646.0
+texture = ExtResource("2_2nbgr")
+expand_mode = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(264, 586)
+scale = Vector2(3.36979, 3.41146)
+texture = ExtResource("3_u07d6")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+visible = false
+offset_top = -3.0
+offset_right = 230.0
+offset_bottom = 86.0
+
+[node name="Background2" type="TextureRect" parent="."]
+offset_left = 453.0
+offset_top = 370.0
+offset_right = 618.0
+offset_bottom = 439.0
+texture = ExtResource("2_2nbgr")
+expand_mode = 1

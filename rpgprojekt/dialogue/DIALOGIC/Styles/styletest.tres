@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://diwcvt1ys2yqu" path="res://addons/dialogic/Resources/dialogic_style_layer.gd" id="1_s14fe"]
 [ext_resource type="PackedScene" uid="uid://bquja8jyk8kbr" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_layer.tscn" id="2_5uub3"]
 [ext_resource type="Script" uid="uid://r0rm6ekkeeca" path="res://addons/dialogic/Resources/dialogic_style.gd" id="2_7cgpq"]
-[ext_resource type="PackedScene" uid="uid://b3gsgix2uji0w" path="res://dialogue/UI/dialog_player.tscn" id="3_5uub3"]
+[ext_resource type="PackedScene" uid="uid://k7m0wxvlxs53" path="res://dialogue/UI/dialog_box.tscn" id="3_5uub3"]
 
 [sub_resource type="Resource" id="Resource_5uub3"]
 script = ExtResource("1_s14fe")
@@ -28,7 +28,7 @@ overrides = {}
 [resource]
 script = ExtResource("2_7cgpq")
 name = "styletest"
-layer_list = Array[String](["10", "11"])
+layer_list = Array[String](["11", "10"])
 layer_info = {
 "": SubResource("Resource_5uub3"),
 "10": SubResource("Resource_7cgpq"),
@@ -36,4 +36,4 @@ layer_info = {
 }
 base_overrides = {}
 layers = Array[ExtResource("1_s14fe")]([])
-metadata/_latest_layer = "10"
+metadata/_latest_layer = "11"
