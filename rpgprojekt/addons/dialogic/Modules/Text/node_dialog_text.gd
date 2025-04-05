@@ -21,9 +21,9 @@ var base_visible_characters := 0
 
 # The used speed per revealed character.
 # May be overwritten when syncing reveal speed to voice.
-var active_speed: float = 0.01
+@export var active_speed: float = 0.01 ##this is where we change speed. do an inherited "slow sttyle
 
-var speed_counter: float = 0
+@export var speed_counter: float = 0
 
 func _set(property: StringName, what: Variant) -> bool:
 	if property == 'text' and typeof(what) == TYPE_STRING:
